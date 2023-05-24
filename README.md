@@ -1,5 +1,17 @@
 # DeepVirFinder: Identifying viruses from metagenomic data by deep learning
 
+## Conda profile
+    conda create -n dvf python=3.9 theano keras scikit-learn Biopython h5py=2.10.0
+    conda activate dvf
+    pip install numpy==1.21  tensorflow-cpu==2.10 tensorflow-directml-plugin
+
+## Training and prediction
+    ./train_models.sh
+    python dvf.py -i ./data/crAssphage.fa -o ./output/ -l 300 -m ./models
+    python dvf.py -i ./data/CRC_meta.fa -o ./output/ -l 300 -m ./models
+
+
+
 Version: 1.0
 
 Authors: Jie Ren, Kai Song, Chao Deng, Nathan Ahlgren, Jed Fuhrman, Yi Li, Xiaohui Xie, Ryan Poplin, Fengzhu Sun
