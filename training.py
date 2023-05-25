@@ -8,11 +8,13 @@
 # required packages :numpy, theano, keras, scikit-learn, Biopython
 # conda create -n dvf python=3.6 numpy theano keras scikit-learn Biopython
 # ==============================================================================
-
 import optparse
 import os
 import random
 import sys
+from warnings import filterwarnings
+filterwarnings(action='ignore', category=DeprecationWarning, module='tensorflow')
+filterwarnings(action='ignore', category=FutureWarning, module='tensorflow')
 
 import keras
 # import multiprocessing
@@ -153,7 +155,7 @@ modPattern = 'model_siamese_varlen_' + contigLengthk + 'k_fl' + str(filter_len1)
 # modName = os.path.join( outDir, modPattern +'_ep{epoch:02d}_acc{acc:.2f}'+'.h5')
 modName = os.path.join(outDir, modPattern + '.h5')
 checkpointer = keras.callbacks.ModelCheckpoint(filepath=modName, verbose=1, save_best_only=True)
-earlystopper = keras.callbacks.EarlyStopping(monitor='val_accuracy', min_delta=0.0001, patience=5, verbose=1)
+earlystopper = keras.callbacks.EarlyStopping(monitor='val_acc', min_delta=0.0001, patience=5, verbose=1)
 
 
 ##### build model #####

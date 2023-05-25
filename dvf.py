@@ -187,7 +187,7 @@ if __name__ == '__main__':
     (options, args) = parser.parse_args()
     if (options.input_fa is None) :
         sys.stderr.write(prog_base + ": ERROR: missing required command-line argument")
-        filelog.write(prog_base + ": ERROR: missing required command-line argument")
+        # filelog.write(prog_base + ": ERROR: missing required command-line argument")
         parser.print_help()
         sys.exit(1)
 
