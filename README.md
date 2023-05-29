@@ -4,7 +4,7 @@
 
     conda create -n dvf python=3.7 theano=1.0.5 scikit-learn=1.0.2 Biopython=1.78 h5py=2.10.0
     conda activate dvf
-    pip install keras==2.1.6 tensorflow-directml==1.15.8
+    pip install keras==2.2.4 tensorflow-directml==1.15.8
 
 ## Training and prediction
 
