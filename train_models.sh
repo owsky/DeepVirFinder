@@ -14,7 +14,8 @@ do
 done
 
 end=$(date +%s.%N)
-runtime=$(echo "$end - $start_encoding" | bc)
+runtime_raw=$(echo "$end - $start_encoding" | bc)
+runtime=$(printf "%.2f" "$runtime_raw")
 echo "Running time for encoding is $runtime"
 
 
@@ -30,10 +31,12 @@ do
   start_training=$(date +%s.%N)
   THEANO_FLAGS='mode=FAST_RUN,device=cuda0,floatX=float32,GPUARRAY_CUDA_VERSION=80' python training.py -l "$l" -i ./train_example/tr/encode -j ./train_example/val/encode -o ./train_example/models -f 10 -n 500 -d 500 -e 10
   end=$(date +%s.%N)
-  runtime=$(echo "$end - $start_training" | bc)
+  runtime_raw=$(echo "$end - $start_training" | bc)
+  runtime=$(printf "%.2f" "$runtime_raw")
   echo "Running time for training with length $l is $runtime"
 done
 
 end=$(date +%s.%N)
-runtime=$(echo "$end - $start_global" | bc)
+runtime_raw=$(echo "$end - $start_global" | bc)
+runtime=$(printf "%.2f" "$runtime_raw")
 echo "Global running time is $runtime"
