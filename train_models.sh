@@ -6,17 +6,18 @@ start_encoding=$(date +%s.%N)
 for l in "${lengths[@]}"
 do
   # for training
-  python encode.py -i ./train_example/tr/host_tr.fa -l "$l" -p host
-  python encode.py -i ./train_example/tr/virus_tr.fa -l "$l" -p virus
+  (python encode.py -i ./train_example/tr/host_tr.fa -l "$l" -p host) &
+  (python encode.py -i ./train_example/tr/virus_tr.fa -l "$l" -p virus) &
   # for validation
-  python encode.py -i ./train_example/val/host_val.fa -l "$l" -p host
-  python encode.py -i ./train_example/val/virus_val.fa -l "$l" -p virus
+  (python encode.py -i ./train_example/val/host_val.fa -l "$l" -p host) &
+  (python encode.py -i ./train_example/val/virus_val.fa -l "$l" -p virus) &
 done
+wait
 
 end=$(date +%s.%N)
-runtime_raw=$(echo "$end - $start_encoding" | bc)
+runtime_raw=$(echo "($end - $start_encoding) / 60" | bc)
 runtime=$(printf "%.2f" "$runtime_raw")
-echo "Running time for encoding is $runtime"
+echo "Running time for encoding is $runtime minutes"
 
 
 # Training multiple models for different contig lengths
@@ -31,12 +32,12 @@ do
   start_training=$(date +%s.%N)
   THEANO_FLAGS='mode=FAST_RUN,device=cuda0,floatX=float32,GPUARRAY_CUDA_VERSION=80' python training.py -l "$l" -i ./train_example/tr/encode -j ./train_example/val/encode -o ./train_example/models -f 10 -n 500 -d 500 -e 10
   end=$(date +%s.%N)
-  runtime_raw=$(echo "$end - $start_training" | bc)
+  runtime_raw=$(echo "($end - $start_training) / 60" | bc)
   runtime=$(printf "%.2f" "$runtime_raw")
-  echo "Running time for training with length $l is $runtime"
+  echo "Running time for training with length $l is $runtime minutes"
 done
 
 end=$(date +%s.%N)
-runtime_raw=$(echo "$end - $start_global" | bc)
+runtime_raw=$(echo "($end - $start_global) / 60" | bc)
 runtime=$(printf "%.2f" "$runtime_raw")
-echo "Global running time is $runtime"
+echo "Global running time is $runtime minutes"
