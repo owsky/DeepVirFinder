@@ -2,7 +2,6 @@ start_global=$(date +%s.%N)
 lengths=(150 300 500 1000)
 
 # Fragmenting sequences into fixed lengths, and encoding them using one-hot encoding (may take about 5 minutes)
-start_encoding=$(date +%s.%N)
 for l in "${lengths[@]}"
 do
   # for training
@@ -15,7 +14,7 @@ done
 wait
 
 end=$(date +%s.%N)
-runtime_raw=$(echo "($end - $start_encoding) / 60" | bc)
+runtime_raw=$(echo "($end - $start_global) / 60" | bc -l)
 runtime=$(printf "%.2f" "$runtime_raw")
 echo "Running time for encoding is $runtime minutes"
 
@@ -32,12 +31,12 @@ do
   start_training=$(date +%s.%N)
   THEANO_FLAGS='mode=FAST_RUN,device=cuda0,floatX=float32,GPUARRAY_CUDA_VERSION=80' python training.py -l "$l" -i ./train_example/tr/encode -j ./train_example/val/encode -o ./train_example/models -f 10 -n 500 -d 500 -e 10
   end=$(date +%s.%N)
-  runtime_raw=$(echo "($end - $start_training) / 60" | bc)
+  runtime_raw=$(echo "($end - $start_training) / 60" | bc -l)
   runtime=$(printf "%.2f" "$runtime_raw")
   echo "Running time for training with length $l is $runtime minutes"
 done
 
 end=$(date +%s.%N)
-runtime_raw=$(echo "($end - $start_global) / 60" | bc)
+runtime_raw=$(echo "($end - $start_global) / 60" | bc -l)
 runtime=$(printf "%.2f" "$runtime_raw")
 echo "Global running time is $runtime minutes"
