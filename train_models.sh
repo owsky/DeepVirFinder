@@ -6,11 +6,11 @@ start_encoding=$(date +%s.%N)
 for l in "${lengths[@]}"
 do
   # for training
-  (python encode.py -i ./train_data/tr/host_tr.fa -l "$l" -p host) &
-  (python encode.py -i ./train_data/tr/virus_tr.fa -l "$l" -p virus) &
+  (python encode.py -i ./train_example/tr/host_tr.fa -l "$l" -p host) &
+  (python encode.py -i ./train_example/tr/virus_tr.fa -l "$l" -p virus) &
   # for validation
-  (python encode.py -i ./train_data/val/host_val.fa -l "$l" -p host) &
-  (python encode.py -i ./train_data/val/virus_val.fa -l "$l" -p virus) &
+  (python encode.py -i ./train_example/val/host_val.fa -l "$l" -p host) &
+  (python encode.py -i ./train_example/val/virus_val.fa -l "$l" -p virus) &
 done
 wait
 
@@ -30,7 +30,7 @@ echo "Running time for encoding is $runtime minutes"
 for l in "${lengths[@]}"
 do
   start_training=$(date +%s.%N)
-  THEANO_FLAGS='mode=FAST_RUN,device=cuda0,floatX=float32,GPUARRAY_CUDA_VERSION=80' python training.py -l "$l" -i ./train_data/tr/encode -j ./train_data/val/encode -o ./train_data/models -f 10 -n 500 -d 500 -e 10
+  THEANO_FLAGS='mode=FAST_RUN,device=cuda0,floatX=float32,GPUARRAY_CUDA_VERSION=80' python training.py -l "$l" -i ./train_example/tr/encode -j ./train_example/val/encode -o ./train_example/models -f 10 -n 500 -d 500 -e 10
   end=$(date +%s.%N)
   runtime_raw=$(echo "($end - $start_training) / 60" | bc)
   runtime=$(printf "%.2f" "$runtime_raw")
