@@ -56,7 +56,7 @@ if (options.contigLength is None or
 		options.filter_len1 is None or
     options.nb_filter1 is None or options.nb_dense is None ) :
 	sys.stderr.write(prog_base + ": ERROR: missing required command-line argument")
-	filelog.write(prog_base + ": ERROR: missing required command-line argument")
+	#filelog.write(prog_base + ": ERROR: missing required command-line argument")
 	parser.print_help()
 	sys.exit(0)
 
