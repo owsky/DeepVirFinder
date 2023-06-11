@@ -16,13 +16,12 @@ fi
 for l in "${lengths[@]}"
 do
   # for training
-  (python ./src/encode.py -i ../data/fixed/tr/host_tr.fa -l "$l" -p host) &
-  (python ./src/encode.py -i ../data/fixed/tr/virus_tr.fa -l "$l" -p virus) &
+  python ./src/encode.py -i ../data/fixed/tr/host_tr.fa -l "$l" -p host
+  python ./src/encode.py -i ../data/fixed/tr/virus_tr.fa -l "$l" -p virus
   # for validation
-  (python ./src/encode.py -i ../data/fixed/val/host_val.fa -l "$l" -p host) &
-  (python ./src/encode.py -i ../data/fixed/val/virus_val.fa -l "$l" -p virus) &
+  python ./src/encode.py -i ../data/fixed/val/host_val.fa -l "$l" -p host
+  python ./src/encode.py -i ../data/fixed/val/virus_val.fa -l "$l" -p virus
 done
-wait 
 
 end=$(date +%s.%N)
 runtime_raw=$(echo "($end - $start) / 60" | bc -l)
