@@ -1,0 +1,2 @@
+Training AUROC: 	0.991829
+Validation AUROC:	0.9217
