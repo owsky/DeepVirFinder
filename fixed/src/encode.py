@@ -63,7 +63,7 @@ fileDir = os.path.dirname(fileName)
 outDir0 = fileDir
 outDir = os.path.join(outDir0, "encode")
 if not os.path.exists(outDir):
-    os.makedirs(outDir)
+    os.makedirs(outDir, exist_ok=True)
 
 fileCount = 0
 with open(fileName, 'r') as faLines:

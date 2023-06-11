@@ -1,3 +1,5 @@
+**/encode
+**/data
+*.fa
 venv
 .idea
-**/encode
