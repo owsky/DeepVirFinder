@@ -148,7 +148,10 @@ dropout_cnn = 0.1
 dropout_pool = 0.1
 dropout_dense = 0.1
 learningrate = 0.001
-batch_size=int(X_trfw_shuf.shape[0]/(1000*1000/contigLength)) ## smaller batch size can reduce memory
+if contigLength != 0:
+    batch_size=int(X_trfw_shuf.shape[0]/(1000*1000/contigLength)) ## smaller batch size can reduce memory
+else:
+    batch_size=int(X_trfw_shuf.shape[0]/(1000)) ## smaller batch size can reduce memory
 pool_len1 = int((contigLength-filter_len1+1)/POOL_FACTOR)
 
 modPattern = 'model_siamese_varlen_'+contigLengthk+'k_fl'+str(filter_len1)+'_fn'+str(nb_filter1)+'_dn'+str(nb_dense)

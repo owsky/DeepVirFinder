@@ -11,7 +11,7 @@ if [ ! -z "$1" ]; then
     lengths=($1)
 fi
 
-base_path="../data/train_example_dataset/"
+base_path="./data/train_example_dataset/"
 # base_path="../data/base/"
 
 # Fragmenting sequences into fixed lengths, and encoding them using one-hot encoding (may take about 5 minutes)
