@@ -90,12 +90,12 @@ print("...loading data...")
 ## phage RefSeq
 print("...loading virus data...")
 # training
-filename_codetrfw = [ x for x in os.listdir(inDirTr) if 'fw.npy' in x and 'virus' in x and str(contigLength) in x ][0]
+filename_codetrfw = [ x for x in os.listdir(inDirTr) if 'codefw.npy' in x and 'virus' in x and contigLengthk + 'k' in x ][0]
 print("data for training " + filename_codetrfw)
 phageRef_codetrfw = np.load(os.path.join(inDirTr, filename_codetrfw))
 phageRef_codetrbw = np.load(os.path.join(inDirTr, filename_codetrfw.replace('fw', 'bw')))
 # validation
-filename_codevalfw = [ x for x in os.listdir(inDirVal) if 'fw.npy' in x and 'virus' in x and str(contigLength) in x ][0]
+filename_codevalfw = [ x for x in os.listdir(inDirVal) if 'codefw.npy' in x and 'virus' in x and contigLengthk + 'k' in x ][0]
 print("data for validation " + filename_codevalfw)
 phageRef_codevalfw = np.load(os.path.join(inDirVal, filename_codevalfw))
 phageRef_codevalbw = np.load(os.path.join(inDirVal, filename_codevalfw.replace('fw', 'bw')))
@@ -104,12 +104,12 @@ phageRef_codevalbw = np.load(os.path.join(inDirVal, filename_codevalfw.replace('
 ## host RefSeq
 print("...loading host data...")
 # training
-filename_codetrfw = [ x for x in os.listdir(inDirTr) if 'fw.npy' in x and 'host' in x and str(contigLength) in x ][0]
+filename_codetrfw = [ x for x in os.listdir(inDirTr) if 'codefw.npy' in x and 'host' in x and contigLengthk + 'k' in x ][0]
 print("data for training " + filename_codetrfw)
 hostRef_codetrfw = np.load(os.path.join(inDirTr, filename_codetrfw))
 hostRef_codetrbw = np.load(os.path.join(inDirTr, filename_codetrfw.replace('fw', 'bw')))
 # validation
-filename_codevalfw = [ x for x in os.listdir(inDirVal) if 'fw.npy' in x and 'host' in x and str(contigLength) in x ][0]
+filename_codevalfw = [ x for x in os.listdir(inDirVal) if 'codefw.npy' in x and 'host' in x and contigLengthk + 'k' in x ][0]
 print("data for validation " + filename_codevalfw)
 hostRef_codevalfw = np.load(os.path.join(inDirVal, filename_codevalfw))
 hostRef_codevalbw = np.load(os.path.join(inDirVal, filename_codevalfw.replace('fw', 'bw')))
@@ -230,6 +230,5 @@ np.savetxt(os.path.join(outDir, modPattern + '_' + type + 'fw_Y_pred.txt'), np.t
 np.savetxt(os.path.join(outDir, modPattern + '_' + type + 'fw_Y_true.txt'), np.transpose(Y))
 
 del Y, X_fw, X_bw
-
 
 

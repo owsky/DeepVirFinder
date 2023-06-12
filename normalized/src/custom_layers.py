@@ -11,6 +11,8 @@ class RowNormalization(Layer):
         super(RowNormalization, self).build(input_shape)
 
     def call(self, x):
+        print(type(x))
+        print(len(x))
         row_sums = K.sum(x, axis=2, keepdims=True)
         normalized_data = x / (row_sums + K.epsilon())
         return normalized_data
