@@ -9,11 +9,11 @@ from keras.optimizers import Adam
 from keras.callbacks import ModelCheckpoint, EarlyStopping
 from custom_layers import RowNormalization, ColumnNormalization
 
-base_path = os.path.join(os.path.dirname(os.path.abspath(sys.argv[0])),"..")
+base_path = os.path.join(os.path.dirname(os.path.abspath(sys.argv[0])),"..", "..")
 out_dir = os.path.join(base_path, "models")
 os.makedirs(out_dir, exist_ok=True)
-training_encodings = os.path.join(base_path, "data", "tr", "encoded")
-validation_encodings = os.path.join(base_path, "data", "val", "encoded")
+training_encodings = os.path.join(base_path, "data", "mixed", "tr", "encoded")
+validation_encodings = os.path.join(base_path, "data", "mixed", "val", "encoded")
 
 ######## loading data for training, validation, testing ##########
 print("...loading data...")

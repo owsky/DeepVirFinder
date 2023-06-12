@@ -16,11 +16,15 @@ fi
 for l in "${lengths[@]}"
 do
   # for training
-  python ./src/encode.py -i ../data/fixed/tr/host_tr.fa -l "$l" -p host
-  python ./src/encode.py -i ../data/fixed/tr/virus_tr.fa -l "$l" -p virus
+  python ./src/encode.py ../data/fixed/tr/host_tr.fa "$l" host fw
+  python ./src/encode.py ../data/fixed/tr/virus_tr.fa "$l" virus fw
+  python ./src/encode.py ../data/fixed/tr/host_tr.fa "$l" host bw
+  python ./src/encode.py ../data/fixed/tr/virus_tr.fa "$l" virus bw
   # for validation
-  python ./src/encode.py -i ../data/fixed/val/host_val.fa -l "$l" -p host
-  python ./src/encode.py -i ../data/fixed/val/virus_val.fa -l "$l" -p virus
+  python ./src/encode.py ../data/fixed/val/host_val.fa "$l" host fw
+  python ./src/encode.py ../data/fixed/val/virus_val.fa "$l" virus fw
+  python ./src/encode.py ../data/fixed/val/host_val.fa "$l" host bw
+  python ./src/encode.py ../data/fixed/val/virus_val.fa "$l" virus bw
 done
 
 end=$(date +%s.%N)

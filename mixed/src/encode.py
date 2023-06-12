@@ -2,6 +2,7 @@ import os
 import sys
 import numpy as np
 from Bio.Seq import Seq
+from Bio import SeqIO
 
 def encodeSeq(sequence):
     # Encode each base pair of the sequence
@@ -22,27 +23,38 @@ def encodeSeq(sequence):
 
 def encodeFastaFile(fasta_file, direction):
     sequences = []
-    with open(fasta_file, 'r') as file:
-        header = None
-        sequence = ''
-        for line in file:
-            line = line.strip()
-            if line.startswith('>'):  # Header line
-                if header is not None and sequence:
-                    if direction == "bw":
-                        sequence = Seq(sequence).reverse_complement()
-                    sequences.append((header, encodeSeq(sequence)))  # Append previous sequence and its header
-                header = line[1:]  # Extract the sequence header (without '>')
-                sequence = ''
-            else:  # Sequence line
-                sequence += line.upper()  # Append the sequence to the existing sequence
+
+    for record in SeqIO.parse(fasta_file, "fasta"):
+        # header = record.id
+        sequence = record.seq if direction == "fw" else record.reverse_complement()
+        sequences.append(sequence)
+    return np.array(sequences, dtype=object)
+
+
+# def encodeFastaFile(fasta_file, direction):
+#     sequences = []
+
+#     with open(fasta_file, 'r') as file:
+#         header = None
+#         sequence = ''
+#         for line in file:
+#             line = line.strip()
+#             if line.startswith('>'):  # Header line
+#                 if header is not None and sequence:
+#                     if direction == "bw":
+#                         sequence = Seq(sequence).reverse_complement()
+#                     sequences.append((header, encodeSeq(sequence)))  # Append previous sequence and its header
+#                 header = line[1:]  # Extract the sequence header (without '>')
+#                 sequence = ''
+#             else:  # Sequence line
+#                 sequence += line.upper()  # Append the sequence to the existing sequence
         
-        if header is not None and sequence:
-            if direction == "bw":
-                sequence = Seq(sequence).reverse_complement()
-            sequences.append((header, encodeSeq(sequence)))  # Append the last sequence and its header
+#         if header is not None and sequence:
+#             if direction == "bw":
+#                 sequence = Seq(sequence).reverse_complement()
+#             sequences.append((header, encodeSeq(sequence)))  # Append the last sequence and its header
     
-    return sequences
+#     return sequences
 
 def main():
     input_file = sys.argv[1]
@@ -52,13 +64,15 @@ def main():
     direction = sys.argv[2]
     output_path = os.path.join(input_path, "encoded", input_file_name + "_" + direction + ".npy")
     encoded_sequences = encodeFastaFile(input_file, direction)
+    np.save(output_path, encoded_sequences)
+    print(f"Encoded sequences saved to '{output_path}'.")
 
     # Convert the encoded sequences to numpy array
-    encoded_array = np.array([encoded_seq for _, encoded_seq in encoded_sequences], dtype=object)
+    # encoded_array = np.array([encoded_seq for _, encoded_seq in encoded_sequences], dtype=object)
 
     # Save the encoded sequences to disk using numpy.save
-    np.save(output_path, encoded_array)
-    print(f"Encoded sequences saved to '{output_path}'.")
+    # np.save(output_path, encoded_array)
+    # print(f"Encoded sequences saved to '{output_path}'.")
 
 if __name__ == "__main__":
     main()
