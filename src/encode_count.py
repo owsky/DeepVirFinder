@@ -59,8 +59,9 @@ with open(fasta_file_path) as fasta_file:
         encoded_sequencesbw.append(normalized_sequencebw)
 
     encoded_sequences = np.array(encoded_sequences)
-    print(np.shape(encoded_sequences))
+    encoded_sequences = np.reshape(encoded_sequences, (*encoded_sequences.shape, 1))
     encoded_sequencesbw = np.array(encoded_sequencesbw)
+    encoded_sequencesbw = np.reshape(encoded_sequencesbw, (*encoded_sequencesbw.shape, 1))
     np.save(os.path.join(out_dir, contig_type + "_0k_codefw.npy"), encoded_sequences)
     np.save(os.path.join(out_dir, contig_type + "_0k_codebw.npy"), encoded_sequencesbw)
 fasta_file.close()

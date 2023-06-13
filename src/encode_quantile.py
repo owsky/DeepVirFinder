@@ -23,16 +23,17 @@ def normalize_kmer_counts(sequence, k):
     kmer_counts = calculate_kmer_counts(sequence, k)
     # kmers = list(kmer_counts.keys())
     counts = np.array(list(kmer_counts.values())).reshape(-1, 1)
+
+    n_quantiles = min(counts.shape[0], 1000)
     
     # Apply quantile normalization using sklearn's quantile_transform
-    normalized_counts = quantile_transform(counts, output_distribution='normal', random_state=0)
+    normalized_counts = quantile_transform(counts, output_distribution='normal', random_state=0, n_quantiles=n_quantiles)
 
-    # normalized_kmer_counts = dict(zip(kmers, normalized_counts.flatten()))
     return normalized_counts
 
 normalized_sequences = []
 normalized_sequencesbw = []
-k = 3
+k = 4
 with open(fasta_file_path) as fasta_file:
     for record in SeqIO.parse(fasta_file, "fasta"):
         sequence = str(record.seq)
@@ -43,6 +44,8 @@ with open(fasta_file_path) as fasta_file:
         normalized_sequencebw = normalize_kmer_counts(sequencebw, k)
         normalized_sequencesbw.append(normalized_sequencebw)
 fasta_file.close()
-print(np.shape(normalized_sequences[0]))
-print(normalized_sequences[0])
-print(len(fasta_file))
+
+normalized_sequences = np.array(normalized_sequences)
+normalized_sequencesbw = np.array(normalized_sequencesbw)
+np.save(os.path.join(out_dir, contig_type + "_0k_codefw.npy"), normalized_sequences)
+np.save(os.path.join(out_dir, contig_type + "_0k_codebw.npy"), normalized_sequencesbw)

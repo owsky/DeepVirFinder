@@ -28,7 +28,6 @@ import h5py
 import sklearn
 from sklearn.metrics import roc_auc_score 
 
-channel_num = 4
 
 prog_base = os.path.split(sys.argv[0])[1]
 
@@ -50,6 +49,7 @@ parser.add_option("-d", "--dense", action = "store", type = int, dest = "nb_dens
 									default=0, help = "number of neurons in the dense layer")
 parser.add_option("-e", "--epochs", action = "store", type = int, dest = "epochs",
 									default=0, help = "number of epochs")
+parser.add_option("-c", "--channels", action="store", type=int, dest="channel_num", default=4, help="number of channels")
 
 (options, args) = parser.parse_args()
 if (options.contigLength is None or
@@ -61,6 +61,7 @@ if (options.contigLength is None or
 	sys.exit(0)
 
 
+channel_num = options.channel_num
 contigLength = options.contigLength
 filter_len1 = options.filter_len1
 nb_filter1 = options.nb_filter1
