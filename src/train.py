@@ -70,7 +70,7 @@ inDirTr = options.inDirTr
 inDirVal = options.inDirVal
 outDir = options.outDir
 if not os.path.exists(outDir):
-    os.makedirs(outDir)
+    os.makedirs(outDir, exist_ok=True)
 epochs = options.epochs
 
 

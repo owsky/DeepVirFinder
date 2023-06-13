@@ -1,15 +1,17 @@
 #!/bin/bash
 cd "${0%/*}"
 
-# encoder="./src/encode_z-score.py"
-# encoder="./src/encode_count.py"
-# encoder="./src/encode_divmax.py"
-# encoder="./src/encode_log.py"
-# encoder="./src/encode_mad.py"
-# encoder="./src/encode_min-max.py"
-encoder="./src/encode_quantile.py"
+# norm="count"
+# norm="divmax"
+# norm="log"
+# norm="mad"
+norm="min_max"
+# norm="z_score"
 
-python -W ignore::FutureWarning $encoder ./data/train_example_dataset/tr/host_tr.fa host
-python -W ignore::FutureWarning $encoder ./data/train_example_dataset/tr/virus_tr.fa virus
-python -W ignore::FutureWarning $encoder ./data/train_example_dataset/val/host_val.fa host
-python -W ignore::FutureWarning $encoder ./data/train_example_dataset/val/virus_val.fa virus
+# broken
+# norm="quantile"
+
+python -W ignore::FutureWarning ./src/encode_norm.py -i ./data/train_example_dataset/tr/host_tr.fa -c host -n $norm
+python -W ignore::FutureWarning ./src/encode_norm.py -i ./data/train_example_dataset/tr/virus_tr.fa -c virus -n $norm
+python -W ignore::FutureWarning ./src/encode_norm.py -i ./data/train_example_dataset/val/host_val.fa -c host -n $norm
+python -W ignore::FutureWarning ./src/encode_norm.py -i ./data/train_example_dataset/val/virus_val.fa -c virus -n $norm
