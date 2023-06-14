@@ -1,5 +1,5 @@
 import numpy as np
-
+import pandas as pd
 
 def letter_to_int(c):
     dict = {'A': 0, 'T': 1, 'C': 2, 'G': 3}
@@ -10,16 +10,15 @@ def letter_to_int(c):
     
 
 def normalize_sequence(sequence):
-    # Convert the sequence string to a numpy array of integers
-    sequence_array = np.array([letter_to_int(letter) for letter in sequence])
+    # Create a DataFrame with the sequence as a single column
+    sequence_array = np.array([letter_to_int(letter) for letter in sequence], dtype=float)
+    df = pd.DataFrame({'Sequence': sequence_array})
 
-    # Calculate the median of the sequence
-    median = np.median(sequence_array)
+    # Compute the mean absolute deviation
+    mad = df['Sequence'].mad()
+    epsilon = 1e-8
 
-    # Calculate the median absolute deviation (MAD) of the sequence
-    mad = np.median(np.abs(sequence_array - median))
+    # Normalize the sequence by subtracting the mean and dividing by the mean absolute deviation
+    normalized_sequence = (df['Sequence'] - df['Sequence'].mean()) / (mad + epsilon)
 
-    # Normalize the sequence by subtracting the median and dividing by the MAD
-    normalized_sequence = (sequence_array - median) / mad
-
-    return normalized_sequence
+    return normalized_sequence.tolist()

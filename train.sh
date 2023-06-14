@@ -11,8 +11,8 @@ if [ ! -z "$1" ]; then
     lengths=($1)
 fi
 
-tr="./data/train_example_dataset/tr/encode_norm"
-val="./data/train_example_dataset/val/encode_norm"
+tr="./data/train_example_dataset/tr/encode"
+val="./data/train_example_dataset/val/encode"
 
 # Training multiple models for different contig lengths
 # The following deep neural networks is with 500 filters of length 10 in the convolutional layer,

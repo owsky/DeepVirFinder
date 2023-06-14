@@ -18,14 +18,11 @@ import os
 import sys
 import random
 import optparse
-import keras
 from keras.models import load_model, Model
 from keras.layers import Dense, Dropout, Input, Conv1D, GlobalMaxPooling1D
 from keras.layers.merge import Average
 from keras.callbacks import ModelCheckpoint, EarlyStopping
 from keras.optimizers import Adam
-import h5py
-import sklearn
 from sklearn.metrics import roc_auc_score 
 
 
@@ -158,8 +155,8 @@ pool_len1 = int((contigLength-filter_len1+1)/POOL_FACTOR)
 modPattern = 'model_siamese_varlen_'+contigLengthk+'k_fl'+str(filter_len1)+'_fn'+str(nb_filter1)+'_dn'+str(nb_dense)
 #modName = os.path.join( outDir, modPattern +'_ep{epoch:02d}_acc{acc:.2f}'+'.h5')
 modName = os.path.join( outDir, modPattern + '.h5')
-checkpointer = keras.callbacks.ModelCheckpoint(filepath=modName, verbose=1,save_best_only=True)
-earlystopper = keras.callbacks.EarlyStopping(monitor='val_acc', min_delta=0.0001, patience=5, verbose=1)
+checkpointer = ModelCheckpoint(filepath=modName, verbose=1,save_best_only=True)
+earlystopper = EarlyStopping(monitor='val_acc', min_delta=0.0001, patience=5, verbose=1)
 
 ##### build model #####
 
@@ -213,8 +210,9 @@ X_bw = X_trbw_shuf
 Y = Y_tr_shuf
 print("...predicting "+type+"...\n")
 Y_pred = model.predict([X_fw, X_bw], batch_size=1)
-auc = sklearn.metrics.roc_auc_score(Y, Y_pred)
+auc = roc_auc_score(Y, Y_pred)
 auc_tr = ('auc_'+type+'='+str(auc)+'\n')
+print(auc_tr)
 #np.savetxt(os.path.join(outDir, modPattern + '_' + type + 'fw_Y_pred.txt'), np.transpose(Y_pred))
 #np.savetxt(os.path.join(outDir, modPattern + '_' + type + 'fw_Y_true.txt'), np.transpose(Y))
 
@@ -228,13 +226,11 @@ X_bw = X_valbw
 Y = Y_val
 print("...predicting "+type+"...\n")
 Y_pred = model.predict([X_fw, X_bw], batch_size=1)
-auc = sklearn.metrics.roc_auc_score(Y, Y_pred)
+auc = roc_auc_score(Y, Y_pred)
 auc_val = ('auc_'+type+'='+str(auc)+'\n')
+print(auc_val)
 np.savetxt(os.path.join(outDir, modPattern + '_' + type + 'fw_Y_pred.txt'), np.transpose(Y_pred))
 np.savetxt(os.path.join(outDir, modPattern + '_' + type + 'fw_Y_true.txt'), np.transpose(Y))
-
-with open(os.path.join(outDir, modPattern + "_" + "auc.txt"), "w") as f:
-    f.write(auc_tr + auc_val)
 
 del Y, X_fw, X_bw
 

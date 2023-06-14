@@ -6,12 +6,11 @@ def min_max_normalization(sequence, k):
     # Generate all possible k-mers
     all_kmers = gen_all_kmers(k)
     
-    # Count the occurrences of each k-mer
-    kmer_counts = Counter(all_kmers)
+    # Count the occurrences of each k-mer in the sequence
+    kmer_counts = Counter(sequence[i:i+k] for i in range(len(sequence)-k+1))
     
     # Get the frequencies of k-mers in the sequence
-    sequence_kmers = [sequence[i:i+k] for i in range(len(sequence)-k+1)]
-    kmer_frequencies = [kmer_counts[kmer] for kmer in sequence_kmers]
+    kmer_frequencies = [kmer_counts[kmer] for kmer in all_kmers]
     
     # Normalize the frequencies
     min_freq = min(kmer_frequencies)
