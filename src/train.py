@@ -214,7 +214,7 @@ Y = Y_tr_shuf
 print("...predicting "+type+"...\n")
 Y_pred = model.predict([X_fw, X_bw], batch_size=1)
 auc = sklearn.metrics.roc_auc_score(Y, Y_pred)
-print('auc_'+type+'='+str(auc)+'\n')
+auc_tr = ('auc_'+type+'='+str(auc)+'\n')
 #np.savetxt(os.path.join(outDir, modPattern + '_' + type + 'fw_Y_pred.txt'), np.transpose(Y_pred))
 #np.savetxt(os.path.join(outDir, modPattern + '_' + type + 'fw_Y_true.txt'), np.transpose(Y))
 
@@ -229,9 +229,12 @@ Y = Y_val
 print("...predicting "+type+"...\n")
 Y_pred = model.predict([X_fw, X_bw], batch_size=1)
 auc = sklearn.metrics.roc_auc_score(Y, Y_pred)
-print('auc_'+type+'='+str(auc)+'\n')
+auc_val = ('auc_'+type+'='+str(auc)+'\n')
 np.savetxt(os.path.join(outDir, modPattern + '_' + type + 'fw_Y_pred.txt'), np.transpose(Y_pred))
 np.savetxt(os.path.join(outDir, modPattern + '_' + type + 'fw_Y_true.txt'), np.transpose(Y))
+
+with open(os.path.join(outDir, modPattern + "_" + "auc.txt"), "w") as f:
+    f.write(auc_tr + auc_val)
 
 del Y, X_fw, X_bw
 

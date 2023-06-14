@@ -9,9 +9,7 @@ def create_kmer_index(k):
     return kmer_index
 
 
-def get_freqs(sequence: str) -> list:
-    k = 4
-    kmer_index = create_kmer_index(k)
+def get_freqs(sequence: str, kmer_index, k) -> list:
     vector = [0] * len(kmer_index)
     kmer_counts = Counter()
     
