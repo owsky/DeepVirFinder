@@ -19,5 +19,5 @@ val="./data/train_example_dataset/val/encode"
 # and 500 dense neurons in the dense layer. Training for 10 epochs.
 for l in "${lengths[@]}"
 do
-  python -W ignore::FutureWarning ./src/train.py -l "$l" -i $tr -j $val -o ./models -f 10 -n 500 -d 500 -e 10
+  python -W ignore::FutureWarning ./src/train.py -l "$l" -i $tr -j $val -o ./models/original -f 10 -n 500 -d 500 -e 10
 done

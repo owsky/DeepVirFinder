@@ -1,5 +1,7 @@
 from collections import Counter
 import itertools
+import os
+import sys
 
 
 def create_kmer_index(k):
@@ -26,6 +28,12 @@ def get_freqs(sequence: str, kmer_index, k) -> list:
 
 
 def normalize_sequence(sequence: str) -> list:
-    k = 4
+    k = os.getenv("KMER")
+    if k is None:
+        sys.stderr.write("Missing KMER env variable\n")
+        sys.exit(1)
+    else:
+        k = int(k)
+        print(k)
     kmer_index = create_kmer_index(k)
     return get_freqs(sequence, kmer_index, k)

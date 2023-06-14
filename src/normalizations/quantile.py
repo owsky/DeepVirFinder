@@ -1,3 +1,5 @@
+import os
+import sys
 import numpy as np
 from sklearn.preprocessing import quantile_transform
 
@@ -25,5 +27,11 @@ def normalize_kmer_counts(sequence, k):
 
 
 def normalize_sequence(sequence: str) -> list:
-    k = 4
+    k = os.getenv("KMER")
+    if k is None:
+        sys.stderr.write("Missing KMER env variable\n")
+        sys.exit(1)
+    else:
+        k = int(k)
+        print(k)
     return normalize_kmer_counts(sequence, k)

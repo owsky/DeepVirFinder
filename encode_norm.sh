@@ -18,6 +18,10 @@ if [ ! -z "$1" ]; then
     norm=($1)
 fi
 
+if [[ -z "${KMER}" ]]; then
+    export KMER=4
+fi
+
 python -W ignore::FutureWarning ./src/encode_norm.py -i ./data/train_example_dataset/tr/host_tr.fa -c host -n $norm
 python -W ignore::FutureWarning ./src/encode_norm.py -i ./data/train_example_dataset/tr/virus_tr.fa -c virus -n $norm
 python -W ignore::FutureWarning ./src/encode_norm.py -i ./data/train_example_dataset/val/host_val.fa -c host -n $norm

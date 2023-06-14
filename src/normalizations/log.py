@@ -1,5 +1,7 @@
 from collections import Counter
 import math
+import os
+import sys
 
 from kmer_gen import gen_all_kmers
 
@@ -21,5 +23,11 @@ def log_normalization(sequence, k):
 
 
 def normalize_sequence(sequence: str) -> list:
-    k = 4
+    k = os.getenv("KMER")
+    if k is None:
+        sys.stderr.write("Missing KMER env variable\n")
+        sys.exit(1)
+    else:
+        k = int(k)
+        print(k)
     return log_normalization(sequence, k)

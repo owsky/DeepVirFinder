@@ -1,4 +1,6 @@
 from collections import Counter
+import os
+import sys
 import numpy as np
 from normalizations.kmer_gen import gen_all_kmers
 
@@ -20,5 +22,11 @@ def normalize_kmers(sequence, k):
 
 
 def normalize_sequence(sequence: str) -> list:
-    k = 4
+    k = os.getenv("KMER")
+    if k is None:
+        sys.stderr.write("Missing KMER env variable\n")
+        sys.exit(1)
+    else:
+        k = int(k)
+        print(k)
     return normalize_kmers(sequence, k)
