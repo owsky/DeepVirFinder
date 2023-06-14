@@ -14,8 +14,20 @@ do
   for norm in "${norms[@]}"
   do
     ./encode_norm.sh $input_data $test_data $norm
+    if [ $? -ne 0 ]; then
+      echo "Script exited with a non-zero code. Exiting Bash script."
+      exit 1
+    fi
     model_path=$(./train_norm.sh $input_data $norm | tee /dev/tty)
-    ./auroc.sh $model_path $norm
+    if [ $? -ne 0 ]; then
+      echo "Script exited with a non-zero code. Exiting Bash script."
+      exit 1
+    fi
+    ./auroc.sh $model_path $norm $test_data
+    if [ $? -ne 0 ]; then
+      echo "Script exited with a non-zero code. Exiting Bash script."
+      exit 1
+    fi
   done
 done
 
@@ -24,6 +36,18 @@ norms=("mad" "z_score")
 for norm in "${norms[@]}"
 do
   ./encode_norm.sh 
+  if [ $? -ne 0 ]; then
+    echo "Script exited with a non-zero code. Exiting Bash script."
+    exit 1
+  fi
   model_path=$(./train_norm.sh $norm | tee /dev/tty)
-  ./auroc.sh $model_path $norm
+  if [ $? -ne 0 ]; then
+    echo "Script exited with a non-zero code. Exiting Bash script."
+    exit 1
+  fi
+  ./auroc.sh $model_path $norm $test_data
+  if [ $? -ne 0 ]; then
+    echo "Script exited with a non-zero code. Exiting Bash script."
+    exit 1
+  fi
 done

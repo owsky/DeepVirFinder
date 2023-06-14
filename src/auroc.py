@@ -12,6 +12,7 @@ def main():
     (options, _) = parser.parse_args()
 
     model_path = options.model_path
+    print(model_path)
     model_dir = os.path.dirname(model_path)
     model_name = os.path.basename(model_path).split(".")[0]
     model = load_model(model_path)

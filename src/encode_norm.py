@@ -52,7 +52,6 @@ def main():
 
     if normalization in normalizers:
         normalize_sequence = normalizers[normalization]
-        print(f"Normalizing with {normalization}")
     else:
         sys.stderr.write(f"Unsupported normalization method. Use any of the following: {normalizers.keys()}")
         sys.exit(1)

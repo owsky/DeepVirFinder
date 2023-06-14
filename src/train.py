@@ -157,9 +157,6 @@ modName = os.path.join( outDir, modPattern + '.h5')
 checkpointer = ModelCheckpoint(filepath=modName, verbose=1,save_best_only=True)
 earlystopper = EarlyStopping(monitor='val_acc', min_delta=0.0001, patience=5, verbose=1)
 
-print(modName)
-sys.exit(0)
-
 ##### build model #####
 
 def get_output(input_layer, hidden_layers):
