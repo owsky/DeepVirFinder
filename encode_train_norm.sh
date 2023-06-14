@@ -47,12 +47,13 @@ do
   fi
   encoded_input_tr="$input_data"/tr/encode_"$norm"
   encoded_input_val="$input_data"/val/encode_"$norm"
+  encoded_test="$test_data"/encode_"$norm"
   model_path=$(./train_norm.sh $encoded_input_tr $encoded_input_val $norm | tee /dev/tty)
   if [ $? -ne 0 ]; then
     echo "Script exited with a non-zero code. Exiting Bash script."
     exit 1
   fi
-  ./auroc.sh $model_path $norm $test_data
+  ./auroc.sh $model_path $norm $encoded_test
   if [ $? -ne 0 ]; then
     echo "Script exited with a non-zero code. Exiting Bash script."
     exit 1
