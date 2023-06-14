@@ -7,6 +7,13 @@ test_data="./data/test"
 norms=("raw_count" "count" "divmax" "log" "min_max")
 kmer_lengths=(4 6 8)
 
+check_return() {
+  if [ $? -ne 0 ]; then
+    echo "Python program exited with a non-zero code. Exiting Bash script."
+    exit 1
+  fi
+}
+
 for kmer in "${kmer_lengths[@]}"
 do
   export KMER=$kmer
@@ -23,15 +30,9 @@ do
     encoded_input_val="$input_data"/val/encode_"$norm"/kmer_length_"$kmer"
     encoded_test="$test_data"/encode_"$norm"/kmer_length_"$kmer"
     model_path=$(./train_norm.sh $encoded_input_tr $encoded_input_val $norm | tee /dev/tty)
-    if [ $? -ne 0 ]; then
-      echo "Script exited with a non-zero code. Exiting Bash script."
-      exit 1
-    fi
+    check_return
     ./auroc.sh $model_path $norm $encoded_test
-    if [ $? -ne 0 ]; then
-      echo "Script exited with a non-zero code. Exiting Bash script."
-      exit 1
-    fi
+    check_return
   done
 done
 
@@ -41,21 +42,12 @@ norms=("mad" "z_score")
 for norm in "${norms[@]}"
 do
   ./encode_norm.sh $input_data $test_data $norm
-  if [ $? -ne 0 ]; then
-    echo "Script exited with a non-zero code. Exiting Bash script."
-    exit 1
-  fi
+  check_return
   encoded_input_tr="$input_data"/tr/encode_"$norm"
   encoded_input_val="$input_data"/val/encode_"$norm"
   encoded_test="$test_data"/encode_"$norm"
   model_path=$(./train_norm.sh $encoded_input_tr $encoded_input_val $norm | tee /dev/tty)
-  if [ $? -ne 0 ]; then
-    echo "Script exited with a non-zero code. Exiting Bash script."
-    exit 1
-  fi
+  check_return
   ./auroc.sh $model_path $norm $encoded_test
-  if [ $? -ne 0 ]; then
-    echo "Script exited with a non-zero code. Exiting Bash script."
-    exit 1
-  fi
+  check_return
 done
