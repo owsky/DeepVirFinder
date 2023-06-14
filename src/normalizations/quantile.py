@@ -33,5 +33,4 @@ def normalize_sequence(sequence: str) -> list:
         sys.exit(1)
     else:
         k = int(k)
-        print(k)
     return normalize_kmer_counts(sequence, k)

@@ -25,7 +25,6 @@ from keras.callbacks import ModelCheckpoint, EarlyStopping
 from keras.optimizers import Adam
 from sklearn.metrics import roc_auc_score 
 
-
 prog_base = os.path.split(sys.argv[0])[1]
 
 parser = optparse.OptionParser()
@@ -158,6 +157,9 @@ modName = os.path.join( outDir, modPattern + '.h5')
 checkpointer = ModelCheckpoint(filepath=modName, verbose=1,save_best_only=True)
 earlystopper = EarlyStopping(monitor='val_acc', min_delta=0.0001, patience=5, verbose=1)
 
+print(modName)
+sys.exit(0)
+
 ##### build model #####
 
 def get_output(input_layer, hidden_layers):
@@ -235,3 +237,4 @@ np.savetxt(os.path.join(outDir, modPattern + '_' + type + 'fw_Y_true.txt'), np.t
 del Y, X_fw, X_bw
 
 
+print(modName)

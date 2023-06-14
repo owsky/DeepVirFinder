@@ -46,6 +46,5 @@ def normalize_sequence(sequence: str) -> list:
         sys.exit(1)
     else:
         k = int(k)
-        print(k)
     kmer_index = create_kmer_index(k)
     return sequence_to_vector(sequence, kmer_index, k)

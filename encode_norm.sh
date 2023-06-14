@@ -1,7 +1,8 @@
 #!/bin/bash
 cd "${0%/*}"
 
-norm="count"
+norm="raw_count"
+# norm="count"
 # norm="divmax"
 # norm="log"
 # norm="mad"

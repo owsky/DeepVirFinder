@@ -34,6 +34,5 @@ def normalize_sequence(sequence: str) -> list:
         sys.exit(1)
     else:
         k = int(k)
-        print(k)
     kmer_index = create_kmer_index(k)
     return get_freqs(sequence, kmer_index, k)
