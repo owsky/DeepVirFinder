@@ -29,7 +29,8 @@ do
     encoded_input_tr="$input_data"/tr/encode_"$norm"/kmer_length_"$kmer"
     encoded_input_val="$input_data"/val/encode_"$norm"/kmer_length_"$kmer"
     encoded_test="$test_data"/encode_"$norm"/kmer_length_"$kmer"
-    model_path=$(./train_norm.sh $encoded_input_tr $encoded_input_val $norm | tee /dev/tty)
+    train_output=$(./train_norm.sh $encoded_input_tr $encoded_input_val $norm | tee /dev/tty)
+    model_path=$(echo "$train_output" | tail -n 1)
     check_return
     ./auroc.sh $model_path $norm $encoded_test
     check_return
