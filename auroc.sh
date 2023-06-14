@@ -7,7 +7,7 @@ test_data=($3)
 
 echo Computing AUROC for model $model_path and normalization $norm
 
-python -W ignore::FutureWarning src/auroc.py -m $model_path -t "$test_data/encode_$norm"
+python -W ignore::FutureWarning src/auroc.py -m $model_path -t $test_data
 
 if [ $? -ne 0 ]; then
   echo "Python program exited with a non-zero code. Exiting Bash script."

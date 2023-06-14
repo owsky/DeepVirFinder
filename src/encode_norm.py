@@ -48,6 +48,9 @@ def main():
     contig_lengths = [150, 300, 500, 1000]
 
     out_dir = os.path.join(os.path.dirname(fasta_file_path), "encode_" + normalization)
+    k = os.getenv("KMER")
+    if k is not None:
+        out_dir = os.path.join(out_dir, "kmer_length_" + k)
     os.makedirs(out_dir, exist_ok=True)
 
     if normalization in normalizers:
@@ -58,6 +61,7 @@ def main():
 
     encoded_sequences = []
     encoded_sequencesbw = []
+
 
     if is_validation:
         for l in contig_lengths:
