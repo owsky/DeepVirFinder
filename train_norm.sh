@@ -21,6 +21,14 @@ check_return() {
   fi
 }
 
+greeting="Training with $input_data_tr with $norm"
+
+if [[ -n "${KMER}" ]]; then
+  greeting="$greeting. Current k-mer length $KMER"
+fi
+
+echo $greeting
+
 # Training multiple models for different contig lengths
 # The following deep neural networks is with 500 filters of length 10 in the convolutional layer,
 # and 500 dense neurons in the dense layer. Training for 10 epochs.

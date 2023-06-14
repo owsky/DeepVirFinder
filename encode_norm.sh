@@ -17,11 +17,13 @@ if [ ! -z "$3" ]; then
     norm=($3)
 fi
 
-echo Encoding with $norm
+greeting="Encoding $input_data and $test_data with $norm"
 
-if [[ -z "${KMER}" ]]; then
-    echo Current k-mer length is $KMER
+if [[ -n "${KMER}" ]]; then
+  greeting="$greeting. Current k-mer length $KMER"
 fi
+
+echo $greeting
 
 check_return() {
   if [ $? -ne 0 ]; then

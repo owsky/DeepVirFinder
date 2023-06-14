@@ -5,7 +5,13 @@ model_path=($1)
 norm=($2)
 test_data=($3)
 
-echo Computing AUROC for model $model_path and normalization $norm
+greeting="Computing AUROC for model $model_path and normalization $norm"
+
+if [[ -n "${KMER}" ]]; then
+  greeting="$greeting and k-mer length $KMER"
+fi
+
+echo $greeting
 
 python -W ignore::FutureWarning src/auroc.py -m $model_path -t $test_data
 
