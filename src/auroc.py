@@ -40,7 +40,7 @@ def main():
         y_pred = model.predict([X_valfw, X_valbw], batch_size=1)
         auroc = roc_auc_score(y_true, y_pred)
         
-        res_path = os.path.join(model_dir, model_name + f"_{l}_auroc.txt")
+        res_path = os.path.join(model_dir, model_name + f"_dataset_{l}_auroc.txt")
         with open(res_path, "w") as file:
             file.write(f"{auroc}\n")
         file.close()

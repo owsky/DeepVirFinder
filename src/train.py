@@ -154,7 +154,7 @@ pool_len1 = int((contigLength-filter_len1+1)/POOL_FACTOR)
 modPattern = 'model_siamese_varlen_'+contigLengthk+'k_fl'+str(filter_len1)+'_fn'+str(nb_filter1)+'_dn'+str(nb_dense)
 k = os.getenv("KMER")
 if k is not None:
-    modPattern = modPattern + "_k-mer_" + k
+    modPattern = modPattern + "_k-mer_length_" + k
 #modName = os.path.join( outDir, modPattern +'_ep{epoch:02d}_acc{acc:.2f}'+'.h5')
 modName = os.path.join( outDir, modPattern + '.h5')
 checkpointer = ModelCheckpoint(filepath=modName, verbose=1,save_best_only=True)
