@@ -2,7 +2,7 @@
 cd "${0%/*}"
 
 # Set default value for lengths
-lengths=(0)
+lengths=(150 300 500 1000)
 
 # Check if input parameter is provided
 # ./train.sh "150 300 500"

@@ -1,6 +1,10 @@
 #!/bin/bash
 cd "${0%/*}"
 
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+NC='\033[0m'
+
 channels=1
 motif_length=1
 
@@ -16,7 +20,7 @@ fi
 
 check_return() {
   if [ $? -ne 0 ]; then
-    echo "Python program exited with a non-zero code. Exiting Bash script."
+    echo -e "${RED}Some error occurred. Exiting Bash script${NC}"
     exit 1
   fi
 }
@@ -27,7 +31,9 @@ if [[ -n "${KMER}" ]]; then
   greeting="$greeting. Current k-mer length $KMER"
 fi
 
-echo $greeting
+echo
+echo -e "${GREEN}$greeting${NC}"
+echo
 
 # Training multiple models for different contig lengths
 # The following deep neural networks is with 500 filters of length 10 in the convolutional layer,

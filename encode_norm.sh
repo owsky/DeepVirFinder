@@ -1,6 +1,10 @@
 #!/bin/bash
 cd "${0%/*}"
 
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+NC='\033[0m'
+
 norm="raw_count"
 input_data="./data/train_example_dataset"
 test_data="./data/test"
@@ -23,11 +27,13 @@ if [[ -n "${KMER}" ]]; then
   greeting="$greeting. Current k-mer length $KMER"
 fi
 
-echo $greeting
+echo
+echo -e "${GREEN}$greeting${NC}"
+echo
 
 check_return() {
   if [ $? -ne 0 ]; then
-    echo "Python program exited with a non-zero code. Exiting Bash script."
+    echo -e "${RED}Some error occurred. Exiting Bash script${NC}"
     exit 1
   fi
 }
