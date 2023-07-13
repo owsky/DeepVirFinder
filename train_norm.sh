@@ -5,9 +5,7 @@ GREEN='\033[0;32m'
 RED='\033[0;31m'
 NC='\033[0m'
 
-# channels=1
 channels=4
-# motif_length=1
 motif_length=10
 
 input_data_tr=($1)

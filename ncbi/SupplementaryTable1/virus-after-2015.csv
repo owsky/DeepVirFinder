@@ -1,0 +1,753 @@
+NCBI accession number,name of the virus,name of the host,genus of host,family of host,order of host,class of host,phylum of host,domain of host
+NC_031045,"Salmonella phage GG32, complete genome",Salmonella enterica serovar Typhimurium,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031021,"Salmonella phage MA12, complete genome",Salmonella enterica serovar Enteritidis,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031909,"Campylobacter phage PC14, complete genome",Campylobacter jejuni NCTC 11168,Campylobacter,Campylobacteraceae,Campylobacterales,Epsilonproteobacteria,Proteobacteria,Bacteria
+NC_031934,"Escherichia phage MX01, complete genome",Escherichia coli DE217,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031928,"Escherichia phage WG01, complete genome",Escherichia coli DE017,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031943,"Escherichia phage vB_EcoP_GA2A, complete genome",Escherichia coli O:45 strain C1328,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031911,"Flavobacterium phage 1H, complete genome",Flavobacterium psychrophilum MH1,Flavobacterium,Flavobacteriaceae,Flavobacteriales,Flavobacteriia,Bacteroidetes,Bacteria
+NC_031926,"Flavobacterium phage 2A, complete genome",Flavobacterium psychrophilum A2,Flavobacterium,Flavobacteriaceae,Flavobacteriales,Flavobacteriia,Bacteroidetes,Bacteria
+NC_031914,"Flavobacterium phage Fpv1, complete genome",Flavobacterium psychrophilum 950106-1/1,Flavobacterium,Flavobacteriaceae,Flavobacteriales,Flavobacteriia,Bacteroidetes,Bacteria
+NC_031932,"Flavobacterium phage Fpv10, complete genome",Flavobacterium psychrophilum 950106-1/1,Flavobacterium,Flavobacteriaceae,Flavobacteriales,Flavobacteriia,Bacteroidetes,Bacteria
+NC_031945,"Flavobacterium phage Fpv11, complete genome",Flavobacterium psychrophilum 950106-1/1,Flavobacterium,Flavobacteriaceae,Flavobacteriales,Flavobacteriia,Bacteroidetes,Bacteria
+NC_031931,"Flavobacterium phage Fpv2, complete genome",Flavobacterium psychrophilum 950106-1/1,Flavobacterium,Flavobacteriaceae,Flavobacteriales,Flavobacteriia,Bacteroidetes,Bacteria
+NC_031912,"Flavobacterium phage Fpv20, complete genome",Flavobacterium psychrophilum 950106-1/1,Flavobacterium,Flavobacteriaceae,Flavobacteriales,Flavobacteriia,Bacteroidetes,Bacteria
+NC_031904,"Flavobacterium phage Fpv3, complete genome",Flavobacterium psychrophilum 950106-1/1,Flavobacterium,Flavobacteriaceae,Flavobacteriales,Flavobacteriia,Bacteroidetes,Bacteria
+NC_031921,"Flavobacterium phage Fpv5, complete genome",Flavobacterium psychrophilum 950106-1/1,Flavobacterium,Flavobacteriaceae,Flavobacteriales,Flavobacteriia,Bacteroidetes,Bacteria
+NC_031938,"Flavobacterium phage Fpv6, complete genome",Flavobacterium psychrophilum 950106-1/1,Flavobacterium,Flavobacteriaceae,Flavobacteriales,Flavobacteriia,Bacteroidetes,Bacteria
+NC_031905,"Flavobacterium phage Fpv7, complete genome",Flavobacterium psychrophilum 950106-1/1,Flavobacterium,Flavobacteriaceae,Flavobacteriales,Flavobacteriia,Bacteroidetes,Bacteria
+NC_031919,"Flavobacterium phage Fpv8, complete genome",Flavobacterium psychrophilum 950106-1/1,Flavobacterium,Flavobacteriaceae,Flavobacteriales,Flavobacteriia,Bacteroidetes,Bacteria
+NC_031936,"Gordonia phage GAL1, complete genome",Gordonia alkanivorans strain CON72,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031917,"Pseudoalteromonas phage BS5, complete genome",Pseudoalteromonas atlantica,Pseudoalteromonas,Pseudoalteromonadaceae,Alteromonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031908,"Pseudoalteromonas phage PH1, complete genome",Pseudoalteromonas marina mano4,Pseudoalteromonas,Pseudoalteromonadaceae,Alteromonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031902,"Salmonella phage 100268_sal2, complete genome",Salmonella enterica,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031946,"Salmonella Phage 103203_sal5, complete genome",Salmonella enterica,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031930,"Salmonella phage 118970_sal1, complete genome",Salmonella enterica,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031933,"Salmonella phage 118970_sal2, complete genome",Salmonella enterica subsp. Enteritidis,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031940,"Salmonella phage 118970_sal3, complete genome",Salmonella enterica,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031918,"Salmonella phage 64795_sal3, complete genome",Salmonella enterica subsp. Typhimurium,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031925,"Salmonella phage BPS11Q3, complete genome",Salmonella enterica subsp. enterica serovar,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031939,"Salmonella phage BPS15Q2, complete genome",Salmonella enterica subsp. enterica serovar,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031924,"Salmonella phage IME207, complete genome",Klebsiella pneumoniae,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031920,"Streptococcus phage phiARI0004, complete genome",Streptococcus pneumoniae 08B01757,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031910,"Streptococcus phage phiARI0031, complete genome",Streptococcus pneumoniae 08B08535,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031901,"Streptococcus phage phiARI0131-1, complete genome",Streptococcus pneumoniae 09B07772,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031941,"Streptococcus phage phiARI0131-2, complete genome",Streptococcus pneumoniae 10B01058,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031913,"Streptococcus phage phiARI0460-1, complete genome",Streptococcus pneumoniae 08B03577,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031942,"Streptococcus phage phiARI0462, complete genome",Streptococcus pneumoniae 09B05356,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031929,"Streptococcus phage phiARI0468-1, complete genome",Streptococcus pneumoniae 08B06220,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031923,"Streptococcus phage phiARI0468-2, complete genome",Streptococcus pneumoniae 08B07540,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031915,"Streptococcus phage phiARI0468-4, complete genome",Streptococcus pneumoniae 09B10874,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031907,"Streptococcus phage phiARI0746, complete genome",Streptococcus pneumoniae 10B04751,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031903,"Synechococcus phage S-CAM22 isolate 1209TA19, complete genome",Synechococcus sp.,Synechococcus,Synechococcaceae,Synechococcales,NA,Cyanobacteria,Bacteria
+NC_031906,"Synechococcus phage S-CAM3 isolate 1010CC42, complete genome",Synechococcus sp.,Synechococcus,Synechococcaceae,Synechococcales,NA,Cyanobacteria,Bacteria
+NC_031900,"Synechococcus phage S-CAM4 isolate 0809SB33, complete genome",Synechococcus sp.,Synechococcus,Synechococcaceae,Synechococcales,NA,Cyanobacteria,Bacteria
+NC_031927,"Synechococcus phage S-CAM7 isolate 0910CC49, complete genome",Synechococcus sp.,Synechococcus,Synechococcaceae,Synechococcales,NA,Cyanobacteria,Bacteria
+NC_031922,"Synechococcus phage S-CAM9 isolate 1109NB16, complete genome",Synechococcus sp.,Synechococcus,Synechococcaceae,Synechococcales,NA,Cyanobacteria,Bacteria
+NC_031944,"Synechococcus phage S-WAM1 isolate 0810PA09, complete genome",Synechococcus sp.,Synechococcus,Synechococcaceae,Synechococcales,NA,Cyanobacteria,Bacteria
+NC_031935,"Synechococcus phage S-WAM2 isolate 0810PA29, complete genome",Synechococcus sp.,Synechococcus,Synechococcaceae,Synechococcales,NA,Cyanobacteria,Bacteria
+NC_031280,"Acinetobacter phage vB_AbaM_phiAbaA1, complete genome",Acinetobacter baumannii Acb8/09,Acinetobacter,Moraxellaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031252,"Arthrobacter phage BarretLemon, complete genome",Arthrobacter sp. ATCC 21022,Arthrobacter,Micrococcaceae,Micrococcales,Actinobacteria,Actinobacteria,Bacteria
+NC_031231,"Arthrobacter phage KellEzio, complete genome",Arthrobacter sp. ATCC 21022,Arthrobacter,Micrococcaceae,Micrococcales,Actinobacteria,Actinobacteria,Bacteria
+NC_031254,"Arthrobacter phage Kitkat, complete genome",Arthrobacter sp. ATCC 21022,Arthrobacter,Micrococcaceae,Micrococcales,Actinobacteria,Actinobacteria,Bacteria
+NC_031224,"Arthrobacter phage Mudcat, complete genome",Arthrobacter sp. ATCC 21022,Arthrobacter,Micrococcaceae,Micrococcales,Actinobacteria,Actinobacteria,Bacteria
+NC_031245,"Bacillus phage SP-15, complete genome",Bacillus subtilis W-23-S(r); Bacillus,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031264,"Brucella phage BiPBO1, complete genome",Brucella inopinata strain BO1,Brucella,Brucellaceae,Rhizobiales,Alphaproteobacteria,Proteobacteria,Bacteria
+NC_031235,"Cyanophage S-RIM32 isolate RW_108_0702, complete genome",Synechococcus sp.,Synechococcus,Synechococcaceae,Synechococcales,NA,Cyanobacteria,Bacteria
+NC_031242,"Cyanophage S-RIM50 isolate RW_29_0704, complete genome",Synechococcus sp.,Synechococcus,Synechococcaceae,Synechococcales,NA,Cyanobacteria,Bacteria
+NC_031260,"Enterococcus phage Ec-ZZ2, complete genome",Enterococcus faecium,Enterococcus,Enterococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031226,"Gordonia phage BaxterFox, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031247,"Gordonia phage BetterKatz, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031234,"Gordonia phage Emalyn, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031265,"Gordonia phage Guacamole, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031229,"Gordonia phage Hotorobo, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031233,"Gordonia phage Kita, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031267,"Gordonia phage Lucky10, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031237,"Gordonia phage Obliviate, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031255,"Gordonia phage Schwabeltier, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031251,"Gordonia phage SoilAssassin, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031249,"Gordonia phage UmaThurman, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031239,"Gordonia phage Vivi2, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031269,"Gordonia phage Yeezy, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031230,"Gordonia phage Yvonnetastic, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031246,"Klebsiella phage vB_KpnP_KpV71, complete genome",Klebsiella pneumoniae B-7850,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031277,"Mycobacterium phage ArcherNM, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031279,"Mycobacterium phage Bactobuster, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031253,"Mycobacterium phage Bipper, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031262,"Mycobacterium phage Brocalys, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031238,"Mycobacterium phage Catalina, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031263,"Mycobacterium phage EvilGenius, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031256,"Mycobacterium phage Loser, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031257,"Mycobacterium phage Mulciber, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031281,"Mycobacterium phage Panchino, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031266,"Mycobacterium phage Phrann, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031261,"Mycobacterium phage Shipwreck, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031243,"Mycobacterium phage Xeno, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031274,"Pseudomonas phage O4, complete genome",Pseudomonas aeruginosa PAO1,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031258,"Salmonella phage BP12A, complete genome",Salmonella enterica Hadar,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031271,"Salmonella phage BP12B, complete genome",Salmonella enterica Hadar,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031228,"Salmonella phage BP12C, complete genome",Salmonella enterica Hadar,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031250,"Salmonella phage BP63, complete genome",Salmonella enterica Infantis,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031241,"Staphylococcus phage CNPx, complete genome",Staphylococcus epidermidis LM1680,Staphylococcus,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031098,"Acinetobacter phage vB_AbaS_TRS1, complete genome",Acinetobacter baumannii A118,Acinetobacter,Moraxellaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031117,"Acinetobacter phage LZ35, complete genome",Acinetobacter baumannii,Acinetobacter,Moraxellaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031086,"Acinetobacter phage phiAB6, complete genome",Acinetobacter baumannii 54149,Acinetobacter,Moraxellaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031039,"Bacillus phage AR9, complete genome",Bacillus subtilis subsp. subtilis 168,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031121,"Bacillus phage Aurora, complete genome",Bacillus thuringiensis subspecies kurstaki,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031024,"Bacillus phage Belinda, complete genome",Bacillus thuringiensis DSM350,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031015,"Bacillus phage Claudi, complete genome",Bacillus thuringiensis subspecies kurstaki,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031006,"Bacillus phage DIGNKC, complete genome",Bacillus thuringiensis subsp. kurstaki,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031056,"Bacillus phage Deep Blue, complete genome",Bacillus cereus BtB2-4,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031054,"Bacillus phage DirtyBetty, complete genome",Bacillus thuringiensis subspecies kurstaki,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031012,"Bacillus phage Kida, complete genome",Bacillus thuringiensis subspecies kurstaki,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031070,"Bacillus phage Nemo, complete genome",Bacillus thuringiensis subsp. kurstaki,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031037,"Bacillus phage Nigalana, complete genome",Bacillus thuringiensis subsp. kurstaki,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031049,"Bacillus phage NotTheCreek, complete genome",Bacillus thuringiensis subsp. kurstaki,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031055,"Bacillus phage PfEFR-5, complete genome",Bacillus cereus EFR-5,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031100,"Bacillus phage Phrodo, complete genome",Bacillus thuringiensis subsp. kurstaki,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031027,"Bacillus phage SageFayge, complete genome",Bacillus thuringiensis subsp. kurstaki,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031034,"Bacillus phage SalinJah, complete genome","Bacillus thuringiensis Berliner 1915, DSM 350",Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031032,"Bacillus phage Stitch, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_031116,"Bacillus phage Zuko, complete genome",Bacillus thuringiensis subsp. kurstaki,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031066,"Citrobacter phage SH1, complete genome",Citrobacter freundii CF5,Citrobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031092,"Citrobacter phage SH2, complete genome",Citrobacter freundii CF5,Citrobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031123,"Citrobacter phage SH3, complete genome",Citrobacter freundii CF3,Citrobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031018,"Citrobacter phage SH4, complete genome",Citrobacter freundii CF3,Citrobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031057,"Citrobacter phage vB_CfrM_CfP1, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_031048,"Enterobacter phage Arya, complete genome",Enterobacter sp. CT7,Enterobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031077,"Enterobacter phage Tyrion, complete genome",Enterobacter sp. CT7,Enterobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031019,"Enterobacteria phage UAB_Phi20, complete genome",Salmonella enterica subsp. enterica,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031050,"Enterobacteria phage vB_EcoS_NBD2, complete genome",Escherichia coli NovaBlue,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031051,"Enterococcus phage SANTOR1, complete genome",Enterococcus faecalis ATCC 19433,Enterococcus,Enterococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031107,"Erwinia phage vB_EamM_Asesino, complete genome",Erwinia amylovora ATCC 29780,Erwinia,Erwiniaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031120,"Erwinia phage vB_EamM_Caitlin, complete genome",Erwinia amylovora ATCC 29780,Erwinia,Erwiniaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031126,"Erwinia phage vB_EamM_ChrisDB, complete genome",Erwinia amylovora ATCC 29780,Erwinia,Erwiniaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031007,"Erwinia phage vB_EamM_EarlPhillipIV, complete genome",Erwinia amylovora ATCC 29780,Erwinia,Erwiniaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031127,"Erwinia phage vB_EamM_Huxley, complete genome",Erwinia amylovora ATCC 29780,Erwinia,Erwiniaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031010,"Erwinia phage vB_EamM_Kwan, complete genome",Erwinia amylovora ATCC 29780,Erwinia,Erwiniaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031043,"Erwinia phage vB_EamM_Phobos, complete genome",Erwinia amylovora ATCC 29780,Erwinia,Erwiniaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031062,"Erwinia phage vB_EamP_Frozen, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_031114,"Escherichia phage 64795_ec1, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031081,"Escherichia phage Envy, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031113,"Escherichia phage Gluttony, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031047,"Escherichia phage HY03, complete genome",Escherichia coli O157:H7 ATCC 43890,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031030,"Escherichia phage UFV-AREG1, complete genome",Escherichia coli O157,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031103,"Escherichia phage vB_EcoM-UFV13, complete genome",Escherichia coli UFV30,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031082,"Escherichia phage vB_EcoM_Alf5, complete genome",Escherichia coli K12,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031074,"Gordonia phage Bantam, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031072,"Gordonia phage CaptainKirk2, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031118,"Gordonia phage CarolAnn, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031029,"Gordonia phage Cucurbita, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031122,"Gordonia phage Eyre, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031028,"Gordonia phage Ghobes, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031099,"Gordonia phage Hedwig, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031060,"Gordonia phage JSwag, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031109,"Gordonia phage Jumbo, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031004,"Gordonia phage Nyceirae, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031061,"Gordonia phage Nymphadora, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031112,"Gordonia phage Phinally, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031031,"Gordonia phage Remus, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031001,"Gordonia phage Terapin, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031052,"Gordonia phage Twister6, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031097,"Gordonia phage Zirinka, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031025,"Klebsiella phage vB_KpnP_KpV475, complete genome",Klebsiella pneumoniae,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031095,"Klebsiella phage PKO111, complete genome",Klebsiella oxytoca ATCC 43863,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031053,"Klebsiella phage PKP126, complete genome",Klebsiella pneumoniae KCTC 2242,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031087,"Klebsiella phage vB_KpnM_KpV477, complete genome",Klebsiella pneumoniae KPB463,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031036,"Lactobacillus phage PLE2, complete genome",Lactobacillus casei BL23,Lactobacillus,Lactobacillaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031125,"Lactobacillus phage PLE3, complete genome",Lactobacillus casei BL23,Lactobacillus,Lactobacillaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031013,"Lactococcus phage 28201, complete genome",Lactococcus lactis SMQ-86,Lactococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031040,"Lactococcus phage 50101, complete genome",Lactococcus lactis 3107,Lactococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031017,"Lactococcus phage 63301, complete genome",Lactococcus lactis 3107,Lactococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031064,"Lactococcus phage 98201, complete genome",Lactococcus lactis SMQ-86,Lactococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031071,"Lactococcus phage D4410, complete genome",Lactococcus lactis DGCC7271,Lactococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031009,"Lactococcus phage D4412, complete genome",Lactococcus lactis DGCC7271,Lactococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031075,"Lactococcus phage M5938, complete genome",Lactococcus lactis DGCC7271,Lactococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031002,"Lactococcus phage M6162, complete genome",Lactococcus lactis DGCC11032,Lactococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031044,"Lactococcus phage M6165, complete genome",Lactococcus lactis DGCC11032,Lactococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031016,"Lactococcus phage PLgT-1, complete genome",Lactococcus garvieae Lg2,Lactococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031020,"Morganella phage vB_MmoM_MP1, complete genome",Morganella sp.,Morganella,Morganellaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031115,"Morganella phage vB_MmoP_MP2, complete genome",Morganella sp.,Morganella,Morganellaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031124,"Mycobacterium phage Gardann, complete genome",Mycobacterium smegmatis mc#155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031035,"Mycobacterium phage Gengar, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031111,"Mycobacterium phage Gompeii16, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_031067,"Mycobacterium phage Makemake, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031041,"Mycobacterium phage Papez, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031102,"Mycobacterium phage Sneeze, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031080,"Mycobacterium phage Tonenili, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031068,"Pectobacterium phage PP16, complete genome",Pectobacterium carotovorum subsp. carotovorum PB69,Pectobacterium,Pectobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031096,"Pectobacterium phage PP90, complete genome",Pectobacterium atrosepticum PB72,Pectobacterium,Pectobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031084,"Propionibacterium phage BruceLethal, complete genome",Propionibacterium acnes ATCC 6919,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031119,"Propionibacterium phage Enoki, complete genome",Propionibacterium acnes ATCC 6919,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031003,"Propionibacterium phage Moyashi, complete genome",Propionibacterium acnes ATCC 6919,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031076,"Propionibacterium phage PFR1, complete genome",Propionibacterium freudenreichii,Propionibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031108,"Propionibacterium phage PFR2, complete genome",Propionibacterium freudenreichii,Propionibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031005,"Propionibacterium phage QueenBey, complete genome",Propionibacterium acnes ATCC 6919,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_031014,"Pseudomonas phage Andromeda, complete genome",Pseudomonas syringae,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031091,"Pseudomonas phage MD8, complete genome",Pseudomonas aeruginosa,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031058,"Pseudomonas phage NP1, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_031063,"Pseudomonas phage PEV2, complete genome",Pseudomonas aeruginosa Kutter,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031110,"Pseudomonas phage phiMK, complete genome",Pseudomonas aeruginosa PAO,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031073,"Pseudomonas phage vB_PaeM_MAG1, complete genome",Pseudomonas aeruginosa clinical isolate PA31,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031104,"Pseudomonas phage vB_PaeP_MAG4, complete genome",Pseudomonas aeruginosa clinical isolate PA21,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031059,"Rhodovulum phage vB_RhkS_P1, complete genome",Rhodovulum sp. P5,Rhodovulum,Rhodobacteraceae,Rhodobacterales,Alphaproteobacteria,Proteobacteria,Bacteria
+NC_031042,"Salmonella phage NR01, complete genome",Salmonella typhimurium,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031129,"Salmonella phage SJ46, complete genome",Salmonella enterica subsp. enterica serovar Indiana,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031026,"Salmonella phage phSE-2, complete genome",Salmonella typhimurium ATCC 13111,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031128,"Salmonella phage vB_SalM_PM10, complete genome",Salmonella typhimurium,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031065,"Salmonella phage vB_SnwM_CGG4-1, complete genome",Salmonella Newport strain C398,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031085,"Shigella phage SHBML-50-1, complete genome",Shigella sonnei,Shigella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_030953,"Shigella phage SHFML-11, complete genome",Shigella sonnei,Shigella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031011,"Shigella phage SHFML-26, complete genome",Shigella sonnei,Shigella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031022,"Shigella phage SHSML-45, complete genome",Shigella sonnei,Shigella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031090,"Shigella phage SHSML-52-1, complete genome",Shigella sonnei,Shigella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_031046,"Staphylococcus phage BP39, complete genome",Staphylococcus aureus,Staphylococcus,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031008,"Staphylococcus phage SLPW, complete genome",Staphylococcus aureus,Staphylococcus,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_031069,"Streptococcus virus 9871, complete genome",Streptococcus thermophilus ST64987,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031094,"Streptococcus virus 9872, complete genome",Streptococcus thermophilus ST64987,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031023,"Streptococcus virus 9874, complete genome",Streptococcus thermophilus ST64987,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_031078,"Streptomyces phage Nanodon, complete genome",Streptomyces griseus ATCC 10137,Streptomyces,Streptomycetaceae,Streptomycetales,Actinobacteria,Actinobacteria,Bacteria
+NC_031101,"Weissella phage WCP30, complete genome",Weissella sp.,Weissella,Leuconostocaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_030945,"Bacillus phage BalMu-1 copy 1, complete genome",Bacillus alcalophilus CGMCC 1.3604,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_030920,"Bacillus phage Eldridge, complete genome",Bacillus megaterium,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_030903,"Bacillus phage SPG24 DNA, contig00001 sequence",Bacillus subtilis G24,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_030925,"Bacillus phage Shbh1, complete genome",Bacillus sp. MGK1/ERV9,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_030904,"Bacillus phage vB_BhaS-171, complete genome",Bacillus halmapalus DSM 29712,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_030950,"Clostridium phage phiCT19406A, complete genome",Clostridium tetani ATCC 19406,Clostridium,Clostridiaceae,Clostridiales,Clostridia,Firmicutes,Bacteria
+NC_030947,"Clostridium phage phiCT19406B, complete genome",Clostridium tetani ATCC 19406,Clostridium,Clostridiaceae,Clostridiales,Clostridia,Firmicutes,Bacteria
+NC_030949,"Clostridium phage phiCTC2A, complete genome",Clostridium tetani C2,Clostridium,Clostridiaceae,Clostridiales,Clostridia,Firmicutes,Bacteria
+NC_030951,"Clostridium phage phiCTC2B, complete genome",Clostridium tetani C2,Clostridium,Clostridiaceae,Clostridiales,Clostridia,Firmicutes,Bacteria
+NC_030936,"Gordonia phage Bachita, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030943,"Gordonia phage Blueberry, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030930,"Gordonia phage Bowser, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030942,"Gordonia phage BritBrat, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030901,"Gordonia phage ClubL, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030941,"Gordonia phage Cozz, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030944,"Gordonia phage Demosthenes, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030902,"Gordonia phage GMA1, complete genome",Gordonia malaquae strain BEN700,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030939,"Gordonia phage GMA4, complete genome",Gordonia malaquae strain BEN700,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030907,"Gordonia phage GMA5, complete genome",Gordonia malaquae BEN700,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030906,"Gordonia phage GMA6, complete genome",Gordonia malaquae CON67,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030935,"Gordonia phage GRU3, complete genome",Gordonia rubropertincta strain CON38,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030932,"Gordonia phage Gsput1, complete genome",Gordonia sputi,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030914,"Gordonia phage Kvothe, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030912,"Gordonia phage McGonagall, complete genome",Gordonia neofelifaecis NRRL 59395,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030924,"Gordonia phage Monty, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030917,"Gordonia phage OneUp, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030915,"Gordonia phage Orchid, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030927,"Gordonia phage Splinter, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030921,"Gordonia phage Utz, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_030911,"Gordonia phage Vendetta, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030913,"Gordonia phage Wizard, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030905,"Gordonia phage Woes, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030929,"Pseudomonas phage JBD44, complete genome",Pseudomonas aeruginosa PA14,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_030908,"Pseudomonas phage JBD69, complete genome",Pseudomonas aeruginosa PA14,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_030918,"Pseudomonas phage JBD93, complete genome",Pseudomonas aeruginosa PA14,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_030910,"Pseudomonas phage K5, complete genome",Pseudomonas aeruginosa PAK,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_030923,"Pseudomonas phage YMC11/06/C171_PPU_BP, complete genome",Pseudomonas putida YMC11/06/C171,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_030909,"Pseudomonas phage YMC11/07/P54_PAE_BP, complete genome",carbapenem-resistant Pseudomonas aeruginosa,NA,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_030931,"Pseudomonas phage phi2, complete genome",Pseudomonas aeruginosa WH-SGI-V-07173,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_030940,"Pseudomonas phage phi3, complete genome",Pseudomonas aeruginosa WH-SGI-V-07174,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_030934,"Pseudomonas phage vB_PsyM_KIL1, complete genome",Pseudomonas syringae pv. porri LMG 28495,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_030948,"Ralstonia phage RSP15 DNA, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_030919,"Salmonella phage 118970_sal4, complete genome",Salmonella enterica,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_030933,"Staphylococcus phage Stau2, complete genome",Staphylococcus aureus,Staphylococcus,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_030946,"Streptococcus phage phiARI0923, complete genome",Streptococcus pneumoniae 10B00617,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_030916,"Tsukamurella phage TPA4, complete genome",Tsukamurella paurometabola strain CON55,Tsukamurella,Tsukamurellaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030695,"Gordonia phage KatherineG, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030694,"Gordonia phage Rosalind, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030696,"Gordonia phage Smoothie, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030698,"Gordonia phage Soups, complete genome",Gordonia terrae 3612,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_030652,"Staphylococcus phage 80, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_030472,"Chimpanzee faeces associated microphage 1 isolate CPNG_29298, complete genome",Pan troglodytes,Pan,Hominidae,Primates,Mammalia,Chordata,Eukaryota
+NC_030458,"Chimpanzee faeces associated microphage 3 isolate CPNG_29300, complete genome",Pan troglodytes,Pan,Hominidae,Primates,Mammalia,Chordata,Eukaryota
+NC_030476,"Chimpanzee faeces associated microphage 2 isolate CPNG_29299, complete genome",Pan troglodytes,Pan,Hominidae,Primates,Mammalia,Chordata,Eukaryota
+NC_031937,"Escherichia phage LM33_P1 genome assembly, chromosome: I",Escherichia coli strain LM33,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029075,"Achromobacter phage JWF, complete genome",Achromobacter xylosoxidans,Achromobacter,Alcaligenaceae,Burkholderiales,Betaproteobacteria,Proteobacteria,Bacteria
+NC_029106,"Achromobacter phage phiAxp-2, complete genome",Achromobacter xylosoxidans,Achromobacter,Alcaligenaceae,Burkholderiales,Betaproteobacteria,Proteobacteria,Bacteria
+NC_029069,"Bacillus phage BM5, complete genome",Bacillus megaterium,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_029121,"Bacillus phage Bp8p-C, complete genome",Bacillus pumilus GR8,NA,NA,NA,NA,NA,NA
+NC_029104,"Brevibacillus phage Jimmer1, complete genome",Brevibacillus laterosporus,Brevibacillus,Paenibacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_029092,"Caulobacter phage Percy, complete genome",Caulobacter sp.,Caulobacter,Caulobacteraceae,Caulobacterales,Alphaproteobacteria,Proteobacteria,Bacteria
+NC_029102,"Enterobacter phage E-2, complete genome",Enterobacter cloacae,Enterobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029078,"Erysipelothrix phage SE-1, complete genome",Erysipelothrix rhusiopathiae,Erysipelothrix,Erysipelotrichaceae,Erysipelotrichales,Erysipelotrichia,Firmicutes,Bacteria
+NC_029091,"Escherichia phage APCEc01, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029073,"Geobacillus virus E3, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_029060,"Gordonia phage GordDuk1, complete genome",Gordonia sp.,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_029074,"Gordonia phage GordTnk2, complete genome",Gordonia sp.,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_029099,"Klebsiella phage KP36, complete genome",Klebsiella pneumoniae KP36,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029058,"Lactobacillus phage LfeInf, complete genome",Lactobacillus fermentum,Lactobacillus,Lactobacillaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_029068,"Lactobacillus phage LfeSau, complete genome",Lactobacillus fermentum,Lactobacillus,Lactobacillaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_029118,"Lactococcus phage GE1, complete genome",Lactococcus garvieae INS1,Lactococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_029079,"Mycobacterium phage Dusk, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_029059,"Mycobacterium phage Edtherson, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_029093,"Mycobacterium phage Mindy, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_029077,"Mycobacterium phage VohminGhazi, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_029084,"Bacteriophage Rani, complete genome",Paenibacillus larvae ATCC 9545,Paenibacillus,Paenibacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_029081,"Pectobacterium phage Peat1, complete genome",Pectobacterium atrosepticum,Pectobacterium,Pectobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029094,"Pseudoalteromonas phage H101, complete genome",Pseudoalteromonas marina,Pseudoalteromonas,Pseudoalteromonadaceae,Alteromonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029100,"Pseudoalteromonas phage Pq0, complete genome",Pseudoalteromonas sp. Bq0,Pseudoalteromonas,Pseudoalteromonadaceae,Alteromonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029066,"Pseudomonas phage PS-1 DNA, complete sequence",Pseudomonas sp. 1-1-1b,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029083,"Pseudomonas phage PaoP5, complete genome",Pseudomonas aeruginosa PAO1,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029101,"Pseudomonas phage YH30, complete genome",Pseudomonas aeruginosa,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029107,"Ralstonia phage RS138 DNA, complete genome",Ralstonia solanacearum,Ralstonia,Burkholderiaceae,Burkholderiales,Betaproteobacteria,Proteobacteria,Bacteria
+NC_029097,"Rhodobacter phage RcTitan, complete genome",Rhodobacter capsulatus YW1,Rhodobacter,Rhodobacteraceae,Rhodobacterales,Alphaproteobacteria,Proteobacteria,Bacteria
+NC_029061,"Rhodoferax phage P26218, complete genome",Rhodoferax sp. IMCC26218,Rhodoferax,Comamonadaceae,Burkholderiales,Betaproteobacteria,Proteobacteria,Bacteria
+NC_029072,"Salmonella phage 19, complete genome",Salmonella paratyphi A,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029071,"Salmonella phage 36, complete genome",Salmonella typhimurium,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029120,"Shigella phage 75/02 Stx, complete genome",Shigella sonnei 75/02,Shigella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029080,"Staphylococcus phage 812, complete genome",Staphylococcus,NA,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_029119,"Staphylococcus phage SPbeta-like, complete genome",Staphylococcus epidermidis 36-1,Staphylococcus,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_029098,"Streptomyces phage Jay2Jay, complete genome",Streptomyces lividans JI1326,Streptomyces,Streptomycetaceae,Streptomycetales,Actinobacteria,Actinobacteria,Bacteria
+NC_029067,Vibrio phage eugene 12A10 genomic sequence,Vibrio sp. 12A10,Vibrio,Vibrionaceae,Vibrionales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029057,"Vibrio phage qdvp001, partial genome",Vibrio parahaemolyticus ATCC 17802,Vibrio,Vibrionaceae,Vibrionales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029050,"Salmonella phage 21, complete genome",Salmonella paratyphi A,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029046,"Sinorhizobium phage phiLM21, complete genome",Sinorhizobium sp. LM21,Sinorhizobium,Rhizobiaceae,Rhizobiales,Alphaproteobacteria,Proteobacteria,Bacteria
+NC_029047,"Verrucomicrobia phage P8625, complete genome",Puniceicoccales sp. IMCC8625,NA,NA,NA,Opitutae,Verrucomicrobia,Bacteria
+NC_029045,"Salmonella phage 37, complete genome",Salmonella gallinarum,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029044,"Mycobacterium phage Breeniome, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_029043,"Mycobacterium phage SweetiePie, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_029042,"Salmonella phage 38, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_024206,"Lactobacillus phage phi jlb1, complete genome",Lactobacillus gasseri ADH,Lactobacillus,Lactobacillaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_024329,"Podovirus Lau218 strain Abe, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_028908,"Achromobacter phage phiAxp-3, complete genome",Achromobacter xylosoxidans,Achromobacter,Alcaligenaceae,Burkholderiales,Betaproteobacteria,Proteobacteria,Bacteria
+NC_028987,"Acinetobacter phage vB_AbaM_IME200, complete genome",Acinetobacter baumannii,Acinetobacter,Moraxellaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029033,"Achromobacter phage phiAxp-1, complete genome",Achromobacter xylosoxidans A22732,Achromobacter,Alcaligenaceae,Burkholderiales,Betaproteobacteria,Proteobacteria,Bacteria
+NC_028834,"Achromobacter phage 83-24, complete genome",Achromobacter xylosoxidans,Achromobacter,Alcaligenaceae,Burkholderiales,Betaproteobacteria,Proteobacteria,Bacteria
+NC_028768,"Achromobacter phage JWX, complete genome",Achromobacter xylosoxidans,Achromobacter,Alcaligenaceae,Burkholderiales,Betaproteobacteria,Proteobacteria,Bacteria
+NC_028848,"Acinetobacter phage Fri1, complete genome",Acinetobacter baumannii 28,Acinetobacter,Moraxellaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028855,"Acinetobacter phage YMC11/12/R2315, complete genome",Acinetobacter sp.,Acinetobacter,Moraxellaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028995,"Acinetobacter phage phiAC-1, complete genome",Acinetobacter soli KZ-1,Acinetobacter,Moraxellaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028887,"Bacillus phage AvesoBmore, complete genome",Bacillus thuringiensis subsp. kurstaki,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028944,"Bacillus phage Eyuki, complete genome",Bacillus thuringiensis kurstaki,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028982,"Bacillus phage JL, complete genome",Bacillus cereus,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028926,"Bacillus phage Palmer, complete genome",Bacillus megaterium strain Km Sp-,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028782,"Bacillus phage Pavlov, complete genome",Bacillus megaterium,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028983,"Bacillus phage Shanette, complete genome",Bacillus cereus,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028856,"Bacillus phage Stahl, complete genome",Bacillus megaterium Km Sp-,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028777,"Bacillus phage Stills, complete genome",Bacillus megaterium Km Sp-,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028890,"Bacillus phage TsarBomba, complete genome",Bacillus thuringiensis subsp. kurstaki,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028789,"Bacillus phage VMY22, complete genome",Bacillus cereus MYB41-22,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028886,"Bacillus phage phi4B1, complete genome",Bacillus thuringiensis 4B1,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_029008,"Bacillus phage phi4J1, complete genome",Bacillus thuringiensis 4J1,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028748,"Bacillus phage vB_BtS_BMBtp3, complete genome",Bacillus thuringiensis serovar tenebrionis strain,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_029024,"Bacillus phage 250, complete genome",Bacillus cereus,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028841,"Bacteriophage Lily, complete genome",Paenibacillus larvae ATCC 9545,Paenibacillus,Paenibacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_029029,"Brevibacillus phage Abouo, complete genome",Brevibacillus laterosporus,Brevibacillus,Paenibacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028805,"Brevibacillus phage Jenst, complete genome",Brevibacillus laterosporus,Brevibacillus,Paenibacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028969,"Brevibacillus phage Osiris, complete genome",Brevibacillus laterosporus,Brevibacillus,Paenibacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028749,"Brevibacillus phage Sundance, complete genome",Brevibacillus laterosporus,Brevibacillus,Paenibacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_029013,"Citrobacter phage IME-CF2, complete genome",Citrobacter freundii,Citrobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028755,"Citrobacter phage Margaery, complete genome",Citrobacter sp.,Citrobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028857,"Citrobacter phage Merlin, complete genome",Citrobacter freundii,Citrobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028880,"Citrobacter phage phiCFP-1, complete genome",Citrobacter freundii P10159,Citrobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029006,"Clostridium phage phiCT19406C, complete genome",Clostridium tetani ATCC 19406,Clostridium,Clostridiaceae,Clostridiales,Clostridia,Firmicutes,Bacteria
+NC_028991,"Clostridium phage phiCT453A, complete genome",Clostridium tetani ATCC 453,Clostridium,Clostridiaceae,Clostridiales,Clostridia,Firmicutes,Bacteria
+NC_029004,"Clostridium phage phiCT453B, complete genome",Clostridium tetani ATCC 453,Clostridium,Clostridiaceae,Clostridiales,Clostridia,Firmicutes,Bacteria
+NC_029022,"Clostridium phage phiCT9441A, complete genome",Clostridium tetani ATCC 9441,Clostridium,Clostridiaceae,Clostridiales,Clostridia,Firmicutes,Bacteria
+NC_028773,"Cronobacter phage S13, complete genome",Cronobacter sakazakii ATCC 29544,Cronobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028795,"Enterobacter phage E-3, complete genome",Enterobacter cloacae,Enterobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028772,"Enterobacter phage phiEap-1, complete genome",Enterobacter aerogenes,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029021,"Enterobacteria phage JenK1, complete genome",Escherichia coli K-12 MG1655,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029028,"Enterobacteria phage JenP1, complete genome",Escherichia coli K-12 MG1655,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028997,"Enterobacteria phage JenP2, complete genome",Escherichia coli K-12 MG1655,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028881,"Enterobacteria phage vB_EcoM_VR5, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029009,"Enterococcus phage EFDG1, complete genome",Enterococcus faecalis,Enterococcus,Enterococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_029026,"Enterococcus phage EFLK1, complete genome",Enterococcus faecalis,Enterococcus,Enterococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_028826,"Enterococcus phage IME-EFm5, complete genome",Enterococcus faecium,Enterococcus,Enterococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_028990,"Enterococcus phage vB_EfaS_IME196, complete genome",Enterococcus faecalis 2007,Enterococcus,Enterococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_029016,"Enterococcus phage vB_EfaS_IME198, complete genome",Enterococcus faecalis 2008,Enterococcus,Enterococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_028903,"Escherichia phage 172-1, complete genome",Escherichia coli 172,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028776,"Enterobacteria phage CAjan, complete genome",Escherichia coli K12 MG1655,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028872,"Escherichia phage HY02, complete genome",Escherichia coli O157:H7,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029023,"Escherichia phage JH2, complete genome",Escherichia coli VN2-O8:F4 ETEC,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028822,"Escherichia phage P483, complete genome",Escherichia coli DE48,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028863,"Escherichia phage P694, complete genome",Escherichia coli DE69,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028847,"Enterobacteria phage QL01, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_028808,"Escherichia phage SUSP1, complete genome",Escherichia coli MG1655,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028935,"Escherichia phage SUSP2, complete genome",Escherichia coli MG1655,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028896,"Escherichia phage pro147, complete genome",Escherichia coli DE048,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028943,"Escherichia phage pro483, complete genome",Escherichia coli DE048,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028825,"Escherichia phage vB_EcoM_AYO145A, complete genome",Escherichia coli O145:NM,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028894,"Enterobacteria phage vB_EcoM_VR20, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028925,"Enterobacteria phage vB_EcoM_VR25, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028957,"Enterobacteria phage vB_EcoM_VR26, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028902,"Enterobacteria phage FI 4184 b, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_028993,"Gokushovirinae GAIR4, complete sequence",NA,NA,NA,NA,NA,NA,NA
+NC_028994,"Gokushovirinae GNX3R, complete sequence",NA,NA,NA,NA,NA,NA,NA
+NC_028972,"Gordonia phage Gmala1, complete genome",Gordonia sp.,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028786,"Klebsiella phage 1513, complete genome",Klebsiella pneumoniae KP 1513,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028800,"Klebsiella phage K5, complete genome",Klebsiella pneumoniae KSM 5-1,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028760,"Klebsiella phage KLPN1, complete genome",Klebsiella pneumoniae subsp. pneumoniae L4-FAA5,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028750,"Klebsiella phage Matisse, complete genome",Klebsiella pneumoniae,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028774,"Klebsiella phage Sushi, complete genome",Klebsiella pneumoniae,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028816,"Klebsiella phage vB_KpnP_SU503, complete genome",Klebsiella pneumoniae 07RAFM-KPN-503,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028870,"Klebsiella phage vB_KpnP_SU552A, complete genome",Klebsiella pneumoniae 07RAFM-KPN-552,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028888,"Lactobacillus phage CL1, complete genome",Lactobacillus paracasei,Lactobacillus,Lactobacillaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_028835,"Lactobacillus phage CL2, complete genome",Lactobacillus paracasei,Lactobacillus,Lactobacillaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_028830,"Lactobacillus phage iA2, complete genome",Lactobacillus paracasei,Lactobacillus,Lactobacillaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_028911,"Lactobacillus phage iLp1308, complete genome",Lactobacillus paracasei,Lactobacillus,Lactobacillaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_028783,"Lactobacillus phage iLp84, complete genome",Lactobacillus paracasei,Lactobacillus,Lactobacillaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_028900,"Lactococcus phage SL4, complete genome",Lactococcus lactis SMQ-404,Lactococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_028871,"Listeria phage vB_LmoS_188, complete genome",Listeria monocytogenes,Listeria,Listeriaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028929,"Listeria phage vB_LmoS_293, complete genome",Listeria monocytogenes,Listeria,Listeriaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028766,"Mannheimia phage vB_MhM_3927AP2, complete genome",Mannheimia haemolytica 3927A,Mannheimia,Pasteurellaceae,Pasteurellales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028898,"Mannheimia phage vB_MhM_587AP1, complete genome",Mannheimia haemolytica 587A serotype A2,Mannheimia,Pasteurellaceae,Pasteurellales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028956,"Mannheimia phage vB_MhS_1152AP2, complete genome",Mannheimia haemolytica 1152A serotype A6,Mannheimia,Pasteurellaceae,Pasteurellales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028853,"Mannheimia phage vB_MhS_535AP2, complete genome",Mannheimia haemolytica 535A serotype A1,Mannheimia,Pasteurellaceae,Pasteurellales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029002,"Microcystis phage MaMV-DC, complete genome",Microcystis aeruginosa,Microcystis,Microcystaceae,Chroococcales,NA,Cyanobacteria,Bacteria
+NC_028920,"Mycobacterium phage Abrogate, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028986,"Mycobacterium phage Alice, complete sequence",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_029018,"Mycobacterium phage Anubis, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028878,"Mycobacterium phage Archie, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028876,"Mycobacterium phage Ariel, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028804,"Mycobacterium phage Barriga, complete genome",Mycobacterium smegmatis mc2155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028823,"Mycobacterium phage Bipolar, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028968,"Mycobacterium phage BrownCNA, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028747,"Mycobacterium phage Brusacoram, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028922,"Mycobacterium phage Cambiare, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028842,"Mycobacterium phage CaptainTrips, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028779,"Mycobacterium phage Carcharodon, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028897,"Mycobacterium phage Chadwick, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028979,"Mycobacterium phage Cheetobro, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028946,"Mycobacterium phage Dante, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028936,"Mycobacterium phage Enkosi, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028852,"Mycobacterium phage Equemioh13, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028861,"Mycobacterium phage FlagStaff, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028889,"Mycobacterium phage Florinda, complete genome",Mycobacterium smegmatis mc2155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028869,"Mycobacterium phage HyRo, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028907,"Mycobacterium phage Kikipoo, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028792,"Mycobacterium phage Kimberlium, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028947,"Mycobacterium phage Kratio, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028877,"Mycobacterium phage Larenn, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028923,"Mycobacterium phage Llama, complete genome",Mycobacteruim smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028843,"Mycobacterium phage Lolly9, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028849,"Mycobacterium phage Luchador, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028791,"Mycobacterium phage MOOREtheMARYer, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028798,"Mycobacterium phage MarQuardt, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028953,"Mycobacterium phage MiaZeal, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028759,"Mycobacterium phage Mufasa, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028978,"Mycobacterium phage Murucutumbu, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028785,"Mycobacterium phage NelitzaMV, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028928,"Mycobacterium phage Nerujay, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028815,"Mycobacterium phage Nhonho, complete genome",Mycobacterium smegmatis mc2155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028803,"Mycobacterium phage OSmaximus, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028832,"Mycobacteriophage Omnicron, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028937,"Mycobacterium phage Ovechkin, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028874,"Mycobacterium phage Pari, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028844,"Mycobacterium phage Phatniss, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028796,"Mycobacterium phage Phayonce, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028942,"Mycobacterium phage Phipps, complete sequence",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028965,"Mycobacterium phage Pioneer, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028794,"Mycobacterium phage Piro94, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028961,"Mycobacterium phage PopTart, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028751,"Mycobacterium phage Quico, complete genome",Mycobacterium smegmatis mc2155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028810,"Mycobacterium phage Rufus, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028813,"Mycobacterium phage Seagreen, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028932,"Mycobacterium phage Serenity, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028846,"Mycobacterium phage ShedlockHolmes, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028914,"Mycobacterium phage Sheen, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028860,"Mycobacterium phage Smeadley, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028778,"Mycobacterium phage Snenia, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028912,"Mycobacterium phage Swirley, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028784,"Mycobacterium phage Tasp14, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028960,"Mycobacterium phage Theia, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028828,"Mycobacterium phage TheloniousMonk, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028757,"Mycobacterium phage Tiffany, complete genome",Mycobacterum smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028906,"Mycobacterium phage Toto, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028941,"Mycobacterium phage Turj99, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028802,"Mycobacterium phage UnionJack, complete genome",Mycobacterum smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028934,"Mycobacterium phage Vincenzo, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028801,"Mycobacterium phage Vortex, complete sequence",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028910,"Mycobacterium phage XFactor, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028788,"Bacteriophage Diva, complete genome",Paenibacillus larvae ATCC 9545,Paenibacillus,Paenibacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028851,"Paenibacillus phage Fern, complete genome",Paenibacillus larvae NRRL 2605,Paenibacillus,Paenibacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028758,"Paenibacillus phage HB10c2, complete genome",Paenibacillus larvae,Paenibacillus,Paenibacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028746,"Paenibacillus phage Harrison, complete genome",Paenibacillus larvae NRRL 2605,Paenibacillus,Paenibacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028854,"Bacteriophage Sitara, complete genome",Paenibacillus larvae ATCC 25747,Paenibacillus,Paenibacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028930,"Paenibacillus phage Tripp, complete genome",Paenibacillus larvae ATCC 9545,Paenibacillus,Paenibacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028767,"Paenibacillus phage Vegas, complete genome",Paenibacillus larvae NRRL 2605,Paenibacillus,Paenibacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028837,"Paenibacillus phage Xenia, complete genome",Paenibacillus larvae NRRL 2605,Paenibacillus,Paenibacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_029012,"Parabacteroides phage YZ-2015a, complete genome",Parabacteroides distasonis,Parabacteroides,Tannerellaceae,Bacteroidales,Bacteroidia,Bacteroidetes,Bacteria
+NC_029014,"Parabacteroides phage YZ-2015b, complete genome",Parabacteroides merdae,Parabacteroides,Tannerellaceae,Bacteroidales,Bacteroidia,Bacteroidetes,Bacteria
+NC_028940,"Pectobacterium bacteriophage PM2, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_029032,"Phormidium phage MIS-PhV1A, complete genome",Phormidium sp. MIS-PhA,Phormidium,Oscillatoriaceae,Oscillatoriales,NA,Cyanobacteria,Bacteria
+NC_028998,"Phormidium phage MIS-PhV1B, complete genome",Phormidium sp. MIS-PhA,Phormidium,Oscillatoriaceae,Oscillatoriales,NA,Cyanobacteria,Bacteria
+NC_028924,"Polaribacter phage P12002L, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_028763,"Polaribacter phage P12002S, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_028955,"Prochlorococcus phage P-TIM68, complete genome",Prochlorococcus sp. MIT9515,Prochlorococcus,Prochloraceae,Synechococcales,NA,Cyanobacteria,Bacteria
+NC_028967,"Propionibacterium phage PAC1, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028812,"Proteus phage pPM_01, complete genome",Proteus mirabilis,Proteus,Morganellaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028762,"Proteus phage vB_PmiM_Pm5461, complete genome",Proteus mirabilis 417,Proteus,Morganellaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028916,"Proteus phage vB_PmiP_Pm5460, complete genome",Proteus mirabilis 414,Proteus,Morganellaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028819,"Pseudoalteromonas Phage H103, complete genome",Pseudoalteromonas marina,Pseudoalteromonas,Pseudoalteromonadaceae,Alteromonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028919,"Pseudomonas phage DL54, complete genome",Pseudomonas aeruginosa PAO1,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028745,"Pseudomonas phage DL60, complete genome",Pseudomonas aeruginosa PAO1,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028836,"Pseudomonas phage DL62, complete genome",Pseudomonas aeruginosa PAO1,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028885,"Pseudomonas phage DL64, complete genome",Pseudomonas aeruginosa PAO1,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028971,"Pseudomonas phage DL68, complete genome",Pseudomonas aeruginosa PAO1,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028817,"Pseudomonas phage K8, complete genome",Pseudomonas aeruginosa PAK,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029017,"Pseudomonas phage KPP21 DNA, complete genome",Pseduomonas aeruginosa,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028980,"Pseudomonas phage PAE1, complete genome",Pseudomonas aeruginosa strain PAO9505,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028770,"Pseudomonas phage PaMx11, complete genome",Pseudomonas aeruginosa,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028931,"Pseudomonas phage PaMx28, partial genome",Pseudomonas aeruginosa,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028879,"Pseudomonas phage PaMx42, complete genome",Pseudomonas aeruginosa,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028809,"Pseudomonas phage PaMx74, partial genome",Pseudomonas aeruginosa,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028933,"Pseudomonas phage PhiCHU, complete genome",Pseudomonas aeruginosa,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028999,"Pseudomonas phage PhiPA3, complete genome",Pseudomonas aeruginosa strain PAO1,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028882,"Pseudomonas phage vB_PaeM_PS24, complete genome",Pseudomonas aeruginosa PAER2_24,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028939,"Pseudomonas phage vB_Pae_PS44, complete genome",Pseudomonas aeruginosa PAER3_44,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028899,"Ralstonia phage RSF1 DNA, complete genome",Ralstonia solanacearum,Ralstonia,Burkholderiaceae,Burkholderiales,Betaproteobacteria,Proteobacteria,Bacteria
+NC_028988,"Ralstonia phage RSJ2 DNA, complete genome",Ralstonia solanacearum,Ralstonia,Burkholderiaceae,Burkholderiales,Betaproteobacteria,Proteobacteria,Bacteria
+NC_029007,"Ralstonia phage RSJ5 DNA, complete genome",Ralstonia solanacearum,Ralstonia,Burkholderiaceae,Burkholderiales,Betaproteobacteria,Proteobacteria,Bacteria
+NC_028950,"Ralstonia phage RSL2 DNA, complete sequence",NA,NA,NA,NA,NA,NA,NA
+NC_028954,"Rhodobacter phage RcRhea, complete genome",Rhodobacter capsulatus YW1,Rhodobacter,Rhodobacteraceae,Rhodobacterales,Alphaproteobacteria,Proteobacteria,Bacteria
+NC_029003,"Salmonella phage SEN1, complete genome",Salmonella enterica subsp. salamae 10/99 II,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029015,"Salmonella phage SEN4, complete genome",Salmonella enterica subsp. salamae 200/01 II,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028754,"Salmonella phage Shivani, complete genome",Salmonella enterica serovar Typhimurium,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028945,"Sinorhizobium phage phiN3, complete genome",Sinorhizobium meliloti,Sinorhizobium,Rhizobiaceae,Rhizobiales,Alphaproteobacteria,Proteobacteria,Bacteria
+NC_028775,"Staphylococcus phage 23MRA, complete genome",Staphylococcus aureus,Staphylococcus,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028917,"Staphylococcus phage 3MRA, complete genome",Staphylococcus aureus,Staphylococcus,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028859,"Staphylococcus phage B166, complete genome",Staphylococcus aureus NRL 09/166,Staphylococcus,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028915,"Staphylococcus phage B236, complete genome",Staphylococcus aureus NRL 08/236,Staphylococcus,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_029025,"Staphylococcus phage IME-SA4, complete genome",Staphylococcus haemolyticus,Staphylococcus,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_029010,"Staphylococcus phage SA97, complete genome",Staphylococcus aureus RN4220,Staphylococcus,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028821,"Staphylococcus phage StB20-like, complete genome",Staphylococcus epidermidis 36-1,Staphylococcus,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028962,"Staphylococcus phage phiIPLA-C1C, complete genome",Staphylococcus sp.,Staphylococcus,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028765,"Staphylococcus phage phiIPLA-RODI, complete genome",Staphylococcus sp.,Staphylococcus,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028862,"Staphylococcus phage vB_SauS_phi2, complete genome",Staphylococcus aureus,Staphylococcus,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028913,"Staphylococcus aureus phage phiNM2, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_028864,"Staphylococcus aureus phage phiNM4, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_029000,"Stenotrophomonas phage IME13, complete genome",Stenotrophomonas maltophilia,Stenotrophomonas,Xanthomonadaceae,Xanthomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029019,"Stenotrophomonas phage vB_SmaS-DLP_2, complete genome",Stenotrophomonas maltophilia D1585,Stenotrophomonas,Xanthomonadaceae,Xanthomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029030,"Streptococcus phage APCM01, complete genome",Streptococcus mutans DPC6143,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_028984,"Streptococcus phage M102AD, complete genome",Streptococcus mutans P42-SM,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_028904,"Streptomyces phage Amela, complete genome",Streptomyces venezuelae ATCC 10712,Streptomyces,Streptomycetaceae,Streptomycetales,Actinobacteria,Actinobacteria,Bacteria
+NC_028892,"Streptomyces phage Caliburn, complete genome",Streptomyces griseus ATCC 10137,Streptomyces,Streptomycetaceae,Streptomycetales,Actinobacteria,Actinobacteria,Bacteria
+NC_028976,"Streptomyces phage Izzy, complete genome",Streptomyces griseus ATCC 10137,Streptomyces,Streptomycetaceae,Streptomycetales,Actinobacteria,Actinobacteria,Bacteria
+NC_028827,"Streptomyces phage Lannister, complete genome",Streptomyces venezuelae ATCC 10712,Streptomyces,Streptomycetaceae,Streptomycetales,Actinobacteria,Actinobacteria,Bacteria
+NC_028807,"Streptomyces phage SF1, complete genome",Streptomyces flavovirens,Streptomyces,Streptomycetaceae,Streptomycetales,Actinobacteria,Actinobacteria,Bacteria
+NC_028952,"Streptomyces phage SF3, complete genome",Streptomyces flavovirens,Streptomyces,Streptomycetaceae,Streptomycetales,Actinobacteria,Actinobacteria,Bacteria
+NC_028818,"Streptomyces phage TP1604, complete genome",Streptomyces griseus subsp. griseus ATCC 10137,Streptomyces,Streptomycetaceae,Streptomycetales,Actinobacteria,Actinobacteria,Bacteria
+NC_028974,"Streptomyces phage YDN12, complete genome",Streptomyces griseus subsp. griseus ATCC 10137,Streptomyces,Streptomycetaceae,Streptomycetales,Actinobacteria,Actinobacteria,Bacteria
+NC_029005,"Streptomyces phage phiSAJS1, complete genome",Streptomyces avermitilis ATCC 31267,Streptomyces,Streptomycetaceae,Streptomycetales,Actinobacteria,Actinobacteria,Bacteria
+NC_029031,"Synechococcus phage S-CBP42, complete genome",Synechococcus sp. WH7803,Synechococcus,Synechococcaceae,Synechococcales,NA,Cyanobacteria,Bacteria
+NC_028865,"Tsukamurella phage TIN2, complete genome",Tsukamurella inchonensis BEN701,Tsukamurella,Tsukamurellaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028966,"Tsukamurella phage TIN3, complete genome",Tsukamurella inchonensis strain BEN701,Tsukamurella,Tsukamurellaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028829,"Vibrio phage ValKK3, complete genome",Vibrio alginolyticus ATCC 17749,Vibrio,Vibrionaceae,Vibrionales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028799,"Vibrio phage phi 1, complete genome",Vibrio cholerae 1051,Vibrio,Vibrionaceae,Vibrionales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028895,"Vibrio phage phi 3, complete genome",Vibrio cholerae 1051,Vibrio,Vibrionaceae,Vibrionales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028820,"Yersinia phage vB_YenM_TG1, complete genome",Yersinia enterocolitica,Yersinia,Yersiniaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028850,"Yersinia phage vB_YenP_ISAO8, complete genome",Yersinia enterocolitica,Yersinia,Yersiniaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028247,"Citrobacter phage Michonne, complete genome",Citrobacter freundii,Citrobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028743,"Mannheimia phage vB_MhS_587AP2, complete genome",Mannheimia haemolytica 587A serotype A2,Mannheimia,Pasteurellaceae,Pasteurellales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028742,"Mycobacterium phage Baee, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028744,"Mycobacterium phage LadyBird, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028675,"Acinetobacter phage phiAB1, complete genome",Acinetobacter baumannii M68316,Acinetobacter,Moraxellaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028684,"Acinetobacter phage vB_AbaP_PD-6A3, complete genome",Acinetobacter baumannii,Acinetobacter,Moraxellaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028679,"Acinetobacter phage vB_AbaP_PD-AB9, complete genome",Acinetobacter baumannii,Acinetobacter,Moraxellaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028692,"Arthrobacter phage Decurro, complete genome",Arthrobacter sp. ATCC 21022,Arthrobacter,Micrococcaceae,Micrococcales,Actinobacteria,Actinobacteria,Bacteria
+NC_028672,"Cronobacter phage PBES 02, complete genome",Cronobacter sp.,Cronobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028663,"Cyanophage P-TIM40, complete genome",Prochlorococcus sp. NATL2A,Prochlorococcus,Prochloraceae,Synechococcales,NA,Cyanobacteria,Bacteria
+NC_028702,"Delftia phage IME-DE1, complete genome",Delftia sp. 670,Delftia,Comamonadaceae,Burkholderiales,Betaproteobacteria,Proteobacteria,Bacteria
+NC_028683,"Edwardsiella phage PEi20 DNA, complete sequence",Edwardsiella ictaluri,Edwardsiella,Hafniaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028695,"Enterobacter phage phiEap-2, complete genome",Enterobacter aerogenes 3-SP,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028656,"Enterobacteria phage VT2phi_272, complete sequence",Escherichia coli O157:H7 strain 71074,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028693,"Enterococcus phage vB_EfaP_IME195, complete genome",Enterococcus faecalis 2003,Enterococcus,Enterococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_028671,"Enterococcus phage vB_EfaS_IME197, complete genome",Enterococcus faecalis,Enterococcus,Enterococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_028660,"Escherichia phage phi191, complete genome",Escherichia coli O111:H2 strain ED 191,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028668,"Gordonia phage GMA3, complete genome",Gordonia malaquae BEN700,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028673,"Gordonia phage GMA7, complete genome",Gordonia malaquae CON60,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028665,"Gordonia phage GTE6, complete genome",Gordonia terrae strain CON34,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028653,"Gordonia phage GTE8, complete genome",Gordonia terrae strain G232,Gordonia,Gordoniaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028651,"Hydrogenobaculum phage 1 strain HP1, complete genome",Hydrogenobaculum,NA,Aquificaceae,Aquificales,Aquificae,Aquificae,Bacteria
+NC_028686,"Klebsiella phage JD18, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_028664,"Klebsiella phage vB_Kp2, complete genome",Klebsiella pneumoniae,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028670,"Klebsiella phage vB_KpnP_KpV41, complete genome",Klebsiella pneumoniae,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028688,"Klebsiella phage vB_Kp1, complete genome",Klebsiella pneumoniae,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028659,"Klebsiella phage vB_KpnM_KB57, complete genome",Klebsiella pneumoniae M-9,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028691,"Mycobacterium phage Apizium, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028682,"Mycobacterium phage Badfish, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028678,"Mycobacterium phage Cabrinians, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028689,"Mycobacterium phage Colbert, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028690,"Mycobacterium phage Eremos, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028687,"Mycobacterium phage Iracema64, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028680,"Mycobacterium phage Pepe, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028662,"Mycobacterium phage Phlei, complete genome",Mycobacterium phlei,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028681,"Mycobacterium phage Pops, complete genome",Mycobacterium smegmatis mc2155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028674,"Mycobacterium phage ShiVal, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028654,"Mycobacterium phage Sparkdehlily, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028658,"Mycobacterium phage Swish, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028694,"Propionibacterium phage PA1-14, complete genome",Propionibacterium acnes A1-14,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028652,"Pseudomonas phage C11, complete genome",Pseudomonas aeruginosa clinical strain TJC422,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028661,"Pseudomonas phage PPPL-1, complete genome",Pseudomonas syringae pv. actinidiae KBE9,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028657,"Pseudomonas phage YMC11/02/R656, complete genome",Pseudomonas aeruginosa YMC11/02/R656,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028677,"Rhodococcus phage CosmicSans, complete genome",Rhodococcus erythropolis RIA 643,Rhodococcus,Nocardiaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_028696,"Salmonella phage SEN22, complete genome",Salmonella enterica subsp. diarizonae 89/00 IIIb,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028699,"Salmonella phage SEN34, complete genome",Salmonella enterica subsp. diarizonae 519/03 IIIb,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028701,"Salmonella phage SEN5, complete genome",Salmonella enterica subsp. salamae 241/01 II,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028698,"Salmonella phage f18SE, complete genome",Salmonella enterica subsp. enteritidis,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028685,"Shigella phage Ss-VASD, complete genome",Shigella sonnei,Shigella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028676,"Sinorhizobium phage phiM9, complete genome",Sinorhizobium meliloti,Sinorhizobium,Rhizobiaceae,Rhizobiales,Alphaproteobacteria,Proteobacteria,Bacteria
+NC_028669,"Staphylococcus phage phiJB, complete genome",Staphylococcus aureus Jevons B,Staphylococcus,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028697,"Streptococcus phage A25, complete genome",Streptococcus pyogenes K56; Streptococcus,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_028666,"Streptococcus phage Str-PAP-1, complete genome",Streptococcus parauberis,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_028700,"Streptococcus phage T12, complete genome",Streptococcus pyogenes,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_028655,"Yersinia phage vB_YenP_AP10, complete genome",Yersinia enterocolitica 6471/76-c serotype O:3,Yersinia,Yersiniaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028449,"Escherichia phage PA2, complete genome",Escherichia coli PA2,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028667,Pseudomonas phage vB_PaeS_PM105,Pseudomonas aeruginosa,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029065,"Pseudomonas phage VCM genome assembly VCM, chromosome : 1",NA,NA,NA,NA,NA,NA,NA
+NC_028840,"Escherichia phage slur09 genome assembly slu09, chromosome : 1",NA,NA,NA,NA,NA,NA,NA
+NC_027983,"Enterobacteria phage AR1 DNA, complete genome",Escherichia coli O157:H7,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027995,"Escherichia phage vB_EcoM_ECO1230-10, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027987,"Leuconostoc phage 1-A4, complete genome",Leuconostoc mesenteroides 1-A4,Leuconostoc,Leuconostocaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_027986,"Pseudomonas phage JBD18, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027992,"Pseudomonas phage JBD25, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027988,"Citrobacter phage CVT22, complete genome",Citrobacter sp. TM1552,Citrobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027979,"Enterobacteria phage RB68, complete genome",Escherichia coli B,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027994,"Escherichia phage K1H, complete genome",Escherichia coli O18:K1:H7,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027993,"Escherichia phage K1G, complete genome",Escherichia coli O18:K1:H7,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027984,"Stx2 converting phage vB_EcoP_24B, complete genome",Escherichia coli O157:H7,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027990,"Lactobacillus phage LBR48, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027982,"Lactobacillus phage phiPYB5, complete genome",Lactobacillus fermentum strain YB5,Lactobacillus,Lactobacillaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_027985,"Mycobacterium phage UncleHowie, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027991,"Staphylococcus phage SA1, complete genome",Staphylococcus aureus,Staphylococcus,Staphylococcaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_028831,"Escherichia phage slur01, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028927,"Escherichia phage slur02, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028901,"Escherichia phage slur05, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028780,"Escherichia phage slur07, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_028448,"Escherichia phage slur14, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_028248,"Escherichia phage slur16, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_029070,Cronobacter phage Dev-CD-23823 complete sequence,NA,NA,NA,NA,NA,NA,NA
+NC_029001,Clostridium phage phiCDHM11 complete genome,NA,NA,NA,NA,NA,NA,NA
+NC_027633,"Gokushovirinae Bog1183_53, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027636,"Gokushovirinae Bog5712_52, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027637,"Gokushovirinae Bog8989_22, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027642,"Gokushovirinae Fen672_31, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027645,"Gokushovirinae Fen7875_21, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_028977,"Klebsiella phage vB_KpnP_KpV289, complete genome",Klebsiella pneumoniae,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027634,"Microviridae Bog1249_12, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027635,"Microviridae Bog5275_51, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027638,"Microviridae Bog9017_22, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027639,"Microviridae Fen2266_11, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027640,"Microviridae Fen418_41, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027641,"Microviridae Fen4707_41, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027643,"Microviridae Fen685_11, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027644,"Microviridae Fen7786_21, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027646,"Microviridae Fen7895_21, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027647,"Microviridae Fen7918_21, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027648,"Microviridae Fen7940_21, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027629,"Propionibacterium phage Attacne, complete genome",Propionibacterium acnes ATCC 6919,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027625,"Propionibacterium phage Kubed, complete genome",Propionibacterium acnes ATCC 6919,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027628,"Propionibacterium phage Lauchelly, complete genome",Propionibacterium acnes ATCC 6919,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027620,"Propionibacterium phage MrAK, complete genome",Propionibacterium acnes ATCC 6919,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027630,"Propionibacterium phage Ouroboros, complete genome",Propionibacterium acnes ATCC 6919,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027623,"Propionibacterium phage Pirate, complete genome",Propionibacterium acnes ATCC 6919,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027626,"Propionibacterium phage Procrass1, complete genome",Propionibacterium acnes ATCC 6919,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027624,"Propionibacterium phage SKKY, complete genome",Propionibacterium acnes ATCC 6919,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027627,"Propionibacterium phage Solid, complete genome",Propionibacterium acnes ATCC 6919,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027622,"Propionibacterium phage Stormborn, complete genome",Propionibacterium acnes ATCC 6919,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027621,"Propionibacterium phage Wizzo, complete genome",Propionibacterium acnes ATCC 6919,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027332,"Acinetobacter phage YMC13/03/R2096, complete genome",Acinetobacter baumannii YMC13/03/R2096,Acinetobacter,Moraxellaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027334,"Aurantimonas phage AmM-1 DNA, complete sequence",Aurantimonas sp. C5-1,Aurantimonas,Aurantimonadaceae,Rhizobiales,Alphaproteobacteria,Proteobacteria,Bacteria
+NC_027355,"Bacillus phage BCP8-2, complete genome",Bacillus cereus JCM 2152,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_027352,"Bacillus phage JBP901, complete genome",Bacillus cereus ATCC 14579,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_027366,"Bacillus phage Mater, complete genome",Bacillus megaterium,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_027374,"Bacillus phage Moonbeam, complete genome",Bacillus megaterium,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_027372,"Bacillus phage Pascal, complete genome",Bacillus megaterium,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_027394,"Bacillus phage Pookie, complete genome",Bacillus megaterium,Bacillus,Bacillaceae,Bacillales,Bacilli,Firmicutes,Bacteria
+NC_027331,"Citrobacter phage Moon, complete genome",Citrobacter freundii,Citrobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027350,"Citrobacter phage Stevie, complete genome",Citrobacter freundii,Citrobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027348,"Delftia phage RG-2014, complete genome",Delftia tsuruhatensis ARB-1,Delftia,Comamonadaceae,Burkholderiales,Betaproteobacteria,Proteobacteria,Bacteria
+NC_027398,"Enterobacteria phage Sf101, complete genome",Shigella flexneri serotype 7a,Shigella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027339,"Enterobacteria phage SfI, complete genome",Shigella flexneri serotype 1a strain 019,Shigella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027360,"Enterobacteriaphage UAB_Phi87, complete genome",Salmonella enterica subsp. enterica,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027335,"Enterococcus phage ECP3, complete genome",Enterococcus faecalis,Enterococcus,Enterococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_027340,"Erwinia phage phiEa2809, complete genome",Erwinia amylovora 1/79,Erwinia,Erwiniaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027387,"Escherichia phage CICC 80001, complete genome",Escherichia coli HY05C,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027369,"Escherichia phage EC6, complete genome",Escherichia coli serotype O157:H7,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027330,"Escherichia phage ECBP5, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027349,"Escherichia phage HY01, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027364,"Escherichia phage PBECO 4, complete genome",Escherichia coli O157,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027381,"Escherichia phage Pollock, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027378,"Escherichia phage Seurat, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027383,"Escherichia phage YD-2008.s, complete genome",Escherichia coli ATCC 11303,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027337,"Escherichia phage vB_EcoM-VpaE1, complete genome",Escherichia coli B strains,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027395,"Phage vB_EcoP_SU10, complete genome",Escherichia coli ECOR10,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027356,"Enterobacteria phage DT57C, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027399,"Klebsiella phage K64-1 DNA, complete genome",Klebsiella pneumoniae,Klebsiella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027341,"Lactococcus phage WRP3, complete genome",Lactococcus lactis,Lactococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_027377,"Leuconostoc phage Ln-8, complete genome",Leuconostoc mesenteroides subsp. mesenteroides D6a,Leuconostoc,Leuconostocaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_027358,"Leuconostoc phage Ln-9, complete genome",Leuconostoc mesenteroides subsp. mesenteroides,Leuconostoc,Leuconostocaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_027365,"Mycobacterium virus Fionnbarth, complete genome",Mycobacterium smegmatis mc2 155,Mycolicibacterium,Mycobacteriaceae,Corynebacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027336,"Propionibacterium phage PHL009M11, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027357,"Propionibacterium phage PHL025M00, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027373,"Propionibacterium phage PHL030N00, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027391,"Propionibacterium phage PHL041M10, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027400,"Propionibacterium phage PHL055N00, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027333,"Propionibacterium phage PHL070N00, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027359,"Propionibacterium phage PHL082M00, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027361,"Propionibacterium phage PHL085N00, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027385,"Propionibacterium phage PHL092M00, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027401,"Propionibacterium phage PHL095N00, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027362,"Propionibacterium phage PHL116M00, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027367,"Propionibacterium phage PHL132N00, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027389,"Propionibacterium phage PHL141N00, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027386,"Propionibacterium phage PHL152M00, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027346,"Propionibacterium phage PHL171M01, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027370,"Propionibacterium phage PHL179M00, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027295,"Propionibacterium phage PHL199M00, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027354,"Propionibacterium phage PHL301M00, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027371,"Propionibacterium phage Pacnes 2012-15, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027363,"Proteus phage PM 75, complete genome",Proteus mirabilis 821,Proteus,Morganellaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027379,"Proteus phage PM 85, complete genome",Proteus mirabilis strain 922 (LMMB NIBOCH,Proteus,Morganellaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027390,"Proteus phage PM 93, complete genome",Proteus mirabilis strain 824 (LMMB NIBOCH,Proteus,Morganellaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027342,"Proteus phage PM16, complete genome",Proteus mirabilis 73,Proteus,Morganellaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027384,"Pseudomonas phage H70, complete genome",Pseudomonas aeruginosa Ps33,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027345,"Pseudomonas phage Pa2, complete genome",Pseudomonas aeruginosa PAO1,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027388,"Pseudomonas phage YH6, complete genome",Pseudomonas aeruginosa,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027375,"Pseudomonas phage vB_PaeP_PPA-ABTNL, complete genome",Pseudomonas aeruginosa PA5-1-1,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027296,"Rhizobium phage RHEph06, complete genome",Rhizobium etli GR56,Rhizobium,Rhizobiaceae,Rhizobiales,Alphaproteobacteria,Proteobacteria,Bacteria
+NC_027402,"Salmonella phage SPN3US, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027351,"Salmonella phage SSE-121, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027344,"Salmonella phage STML-198, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027329,"Salmonella phage vB_SPuM_SP116, complete genome",Salmonella enterica serovar Pullorum 96116,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027297,"Salmonella phage Stitch, complete genome",Salmonella typhimurium,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027382,"Enterobacteria phage SfMu, complete genome",Shigella flexneri serotype 4a,Shigella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027396,"Streptococcus phage SpSL1, complete genome",Streptococcus pneumoniae,Streptococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_027299,"Sulfitobacter phage NYA-2014a, complete genome",Sulfitobacter sp. CB2047,Sulfitobacter,Rhodobacteraceae,Rhodobacterales,Alphaproteobacteria,Proteobacteria,Bacteria
+NC_027393,"Vibrio phage J2, complete genome",Vibrio cholerae 2095,Vibrio,Vibrionaceae,Vibrionales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027397,"Vibrio phage QH, complete genome",Vibrio cholerae 2095,Vibrio,Vibrionaceae,Vibrionales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027404,"Yersinia phage PST, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027294,"Propionibacterium phage PHL150M00, complete genome",Propionibacterium acnes,Cutibacterium,Propionibacteriaceae,Propionibacteriales,Actinobacteria,Actinobacteria,Bacteria
+NC_027292,"Pseudomonas phage Pf-10, complete genome",Pseudomonas fluorescens BIM B-582; Pseudomonas,Pseudomonas,Pseudomonadaceae,Pseudomonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027293,"Citrobacter phage Moogle, complete genome",Citrobacter freundii,Citrobacter,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027204,"Sinorhizobium phage phiM12, complete genome",Sinorhizobium meliloti,Sinorhizobium,Rhizobiaceae,Rhizobiales,Alphaproteobacteria,Proteobacteria,Bacteria
+NC_027125,"Flavobacterium phage FCL-2, complete genome",Flavobacterium columnare B185,Flavobacterium,Flavobacteriaceae,Flavobacteriales,Flavobacteriia,Bacteroidetes,Bacteria
+NC_027130,"Synechococcus phage ACG-2014b isolate Syn7803C100, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_027132,"Synechococcus phage ACG-2014i isolate Syn7803US120, complete genome",NA,NA,NA,NA,NA,NA,NA
+NC_021190,"Enterobacteria phage phi80, complete genome",Escherichia coli,Escherichia,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027120,"Lactococcus phage 1358, complete sequence",Lactococcus lactis SMQ-388,Lactococcus,Streptococcaceae,Lactobacillales,Bacilli,Firmicutes,Bacteria
+NC_027119,"Salmonella phage Det7, complete genome",Salmonella enterica serovar Typhimurium,Salmonella,Enterobacteriaceae,Enterobacterales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_027118,"Vibrio phage phiVC8, complete genome",Vibrio cholerae O1 Classic E8021,Vibrio,Vibrionaceae,Vibrionales,Gammaproteobacteria,Proteobacteria,Bacteria
+NC_036595,"Aeropyrum globular virus 1 genomic DNA, complete genome",Aeropyrum pernix,Aeropyrum,Desulfurococcaceae,Desulfurococcales,Thermoprotei,Crenarchaeota,Archaea
+NC_035464,"Metallosphaera turreted icosahedral virus strain MTIV1, complete genome",Metallosphaera sp.,Metallosphaera,Sulfolobaceae,Sulfolobales,Thermoprotei,Crenarchaeota,Archaea
+NC_034625,"Sulfolobus islandicus rod-shaped virus 10, partial genome",Sulfolobus islandicus,Sulfolobus,Sulfolobaceae,Sulfolobales,Thermoprotei,Crenarchaeota,Archaea
+NC_034624,"Sulfolobus islandicus rod-shaped virus 11, partial genome",Sulfolobus islandicus,Sulfolobus,Sulfolobaceae,Sulfolobales,Thermoprotei,Crenarchaeota,Archaea
+NC_034628,"Sulfolobus islandicus rod-shaped virus 4, partial genome",Sulfolobus islandicus,Sulfolobus,Sulfolobaceae,Sulfolobales,Thermoprotei,Crenarchaeota,Archaea
+NC_034621,"Sulfolobus islandicus rod-shaped virus 5, partial genome",Sulfolobus islandicus,Sulfolobus,Sulfolobaceae,Sulfolobales,Thermoprotei,Crenarchaeota,Archaea
+NC_034627,"Sulfolobus islandicus rod-shaped virus 6, partial genome",Sulfolobus islandicus,Sulfolobus,Sulfolobaceae,Sulfolobales,Thermoprotei,Crenarchaeota,Archaea
+NC_034619,"Sulfolobus islandicus rod-shaped virus 7, partial genome",Sulfolobus islandicus,Sulfolobus,Sulfolobaceae,Sulfolobales,Thermoprotei,Crenarchaeota,Archaea
+NC_034623,"Sulfolobus islandicus rod-shaped virus 8, partial genome",Sulfolobus islandicus,Sulfolobus,Sulfolobaceae,Sulfolobales,Thermoprotei,Crenarchaeota,Archaea
+NC_034620,"Sulfolobus islandicus rod-shaped virus 9, partial genome",Sulfolobus islandicus,Sulfolobus,Sulfolobaceae,Sulfolobales,Thermoprotei,Crenarchaeota,Archaea
+NC_029548,"Pyrobaculum filamentous virus 1, complete genome",Pyrobaculum arsenaticum,Pyrobaculum,Thermoproteaceae,Thermoproteales,Thermoprotei,Crenarchaeota,Archaea
+NC_030884,"Sulfolobus islandicus rudivirus 3 isolate SIRV3, complete genome",Sulfolobus islandicus,Sulfolobus,Sulfolobaceae,Sulfolobales,Thermoprotei,Crenarchaeota,Archaea
+NC_029314,"Acidianus rod-shaped virus 2 strain ARV2, complete genome",Sulfolobales,NA,NA,NA,Thermoprotei,Crenarchaeota,Archaea
+NC_029316,"Acidianus tailed spindle virus isolate 1, complete genome",Acidianus sp. CHAS,Acidianus,Sulfolobaceae,Sulfolobales,Thermoprotei,Crenarchaeota,Archaea
+NC_029103,"Sulfolobus monocaudavirus SMV3, complete genome",Sulfolobus,NA,Sulfolobaceae,Sulfolobales,Thermoprotei,Crenarchaeota,Archaea
+NC_028938,"Acidianus bottle-shaped virus 2 strain ABV2, complete genome",Sulfolobales,NA,NA,NA,Thermoprotei,Crenarchaeota,Archaea
+NC_028787,"Acidianus bottle-shaped virus 3 strain ABV3, complete genome",Sulfolobales,NA,NA,NA,Thermoprotei,Crenarchaeota,Archaea
+NC_028992,"Sulfolobales Virus YNP2 strain SYV2, complete genome",Sulfolobales,NA,NA,NA,Thermoprotei,Crenarchaeota,Archaea
+NC_029027,"Sulfolobales virus YNP1 strain SYV1, complete genome",Sulfolobales,NA,NA,NA,Thermoprotei,Crenarchaeota,Archaea
+NC_029020,"Sulfolobus monocaudavirus SMV2, complete genome",Sulfolobus,NA,Sulfolobaceae,Sulfolobales,Thermoprotei,Crenarchaeota,Archaea
+NC_029011,"Sulfolobus monocaudavirus SMV4, complete genome",Sulfolobus,NA,Sulfolobaceae,Sulfolobales,Thermoprotei,Crenarchaeota,Archaea
