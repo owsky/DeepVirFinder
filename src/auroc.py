@@ -14,13 +14,14 @@ def main():
     model_path = options.model_path
     print(model_path)
     model_dir = os.path.dirname(model_path)
-    model_name = os.path.basename(model_path).split(".")[0]
+    model_name = os.path.basename(model_path).rsplit(".", 1)[0]
     model = load_model(model_path)
 
     test_path = options.test_path
 
     # Loading test data
-    lengths = ["0.15k", "0.3k", "0.5k", "1.0k"]
+    lengths = ["0.15k", "0.3k", "0.5k", "1k", "3k"]
+    # lengths = ["0.15k", "0.3k", "0.5k", "1.0k"]
 
     for l in lengths:
         host = np.load(os.path.join(test_path, f"host_{l}_codefw.npy"))

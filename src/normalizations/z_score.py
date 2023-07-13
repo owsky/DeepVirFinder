@@ -1,6 +1,6 @@
-from sklearn.preprocessing import StandardScaler
+import numpy as np
 
-def encodeSeq(seq) : 
+def encodeSeq(seq: str) -> list: 
     seq_code = list()
     for pos in range(len(seq)) :
         letter = seq[pos]
@@ -18,6 +18,14 @@ def encodeSeq(seq) :
     return seq_code 
 
 def normalize_sequence(sequence: str) -> list:
-    scaler = StandardScaler()
     encoded = encodeSeq(sequence)
-    return scaler.fit_transform(encoded)
+    data_array = np.array(encoded)
+    
+    # Calculate the mean and standard deviation along each column
+    mean = np.mean(data_array, axis=0)
+    std_dev = np.std(data_array, axis=0)
+    
+    # Perform z-score normalization
+    normalized_data = (data_array - mean) / std_dev
+    
+    return normalized_data.tolist()
