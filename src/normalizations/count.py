@@ -1,7 +1,7 @@
 from collections import Counter
-import itertools
 import os
 import sys
+from kmer_gen import gen_all_kmers
 
 
 def normalize_kmers(sequence, k):
@@ -12,31 +12,12 @@ def normalize_kmers(sequence, k):
     
     # Calculate the total number of k-mers
     total_kmers = len(sequence) - k + 1
-    
+
+    all_kmers = gen_all_kmers(k)
     # Normalize the k-mer counts
-    normalized_kmers = {kmer: count/total_kmers for kmer, count in kmer_counts.items()}
-    
+    normalized_kmers = [kmer_counts.get(kmer, 0) / total_kmers for kmer in all_kmers]
+
     return normalized_kmers
-
-
-def create_kmer_index(k):
-    # Create a dictionary of all possible k-mers of length k
-    kmers = [''.join(p) for p in itertools.product('ACGT', repeat=k)]
-    kmer_index = {kmer: i for i, kmer in enumerate(kmers)}
-    return kmer_index
-
-
-def sequence_to_vector(sequence, kmer_index, k):
-    # Calculate the normalized k-mer counts for the sequence
-    normalized_kmers = normalize_kmers(sequence, k)
-    
-    # Create a fixed-length vector representation of the normalized k-mer counts
-    vector = [0] * len(kmer_index)
-    for kmer, count in normalized_kmers.items():
-        index = kmer_index[kmer]
-        vector[index] = count
-    
-    return vector
 
 
 def normalize_sequence(sequence: str) -> list:
@@ -46,5 +27,5 @@ def normalize_sequence(sequence: str) -> list:
         sys.exit(1)
     else:
         k = int(k)
-    kmer_index = create_kmer_index(k)
-    return sequence_to_vector(sequence, kmer_index, k)
+    return normalize_kmers(sequence, k)
+

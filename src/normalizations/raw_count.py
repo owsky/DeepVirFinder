@@ -1,30 +1,19 @@
 from collections import Counter
-import itertools
 import os
 import sys
+from kmer_gen import gen_all_kmers
 
+def normalize_kmers(sequence, k):
+    # Count the occurrences of each k-mer
+    kmers = [sequence[i:i+k] for i in range(len(sequence)-k+1)]
+    kmers = [kmer for kmer in kmers if set(kmer).issubset({'A', 'C', 'G', 'T'})]
+    kmer_counts = Counter(kmers)
 
-def create_kmer_index(k):
-    # Create a dictionary of all possible k-mers of length k
-    kmers = [''.join(p) for p in itertools.product('ACGT', repeat=k)]
-    kmer_index = {kmer: i for i, kmer in enumerate(kmers)}
-    return kmer_index
+    all_kmers = gen_all_kmers(k)
+    # Normalize the k-mer counts
+    normalized_kmers = [kmer_counts.get(kmer, 0) for kmer in all_kmers]
 
-
-def get_freqs(sequence: str, kmer_index, k) -> list:
-    vector = [0] * len(kmer_index)
-    kmer_counts = Counter()
-    
-    for i in range(len(sequence) - k + 1):
-        kmer = sequence[i:i+k]
-        
-        if set(kmer).issubset({'A', 'C', 'G', 'T'}):
-            kmer_counts[kmer] += 1
-            index = kmer_index[kmer]
-            vector[index] = kmer_counts[kmer]
-    
-    return vector
-
+    return normalized_kmers
 
 
 def normalize_sequence(sequence: str) -> list:
@@ -34,5 +23,4 @@ def normalize_sequence(sequence: str) -> list:
         sys.exit(1)
     else:
         k = int(k)
-    kmer_index = create_kmer_index(k)
-    return get_freqs(sequence, kmer_index, k)
+    return normalize_kmers(sequence, k)

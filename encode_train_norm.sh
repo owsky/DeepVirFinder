@@ -15,7 +15,8 @@ check_return() {
 input_data="./data/train_example_dataset"
 test_data="./data/test"
 
-norms=("raw_count" "count" "divmax" "log" "min_max")
+norms=("z_score_count")
+# norms=("raw_count" "count" "divmax" "log" "min_max" "z_score_count")
 kmer_lengths=(4 6)
 
 for kmer in "${kmer_lengths[@]}"
@@ -39,19 +40,19 @@ do
   done
 done
 
-unset KMER
+# unset KMER
 
-norms=("mad" "z_score")
-for norm in "${norms[@]}"
-do
-  ./encode_norm.sh $input_data $test_data $norm
-  check_return
-  encoded_input_tr="$input_data"/tr/encode_"$norm"
-  encoded_input_val="$input_data"/val/encode_"$norm"
-  encoded_test="$test_data"/encode_"$norm"
-  train_output=$(./train_norm.sh $encoded_input_tr $encoded_input_val $norm | tee /dev/tty)
-  model_path=$(echo "$train_output" | tail -n 1)
-  check_return
-  ./auroc.sh $model_path $norm $encoded_test
-  check_return
-done
+# norms=("z_score")
+# for norm in "${norms[@]}"
+# do
+#   ./encode_norm.sh $input_data $test_data $norm
+#   check_return
+#   encoded_input_tr="$input_data"/tr/encode_"$norm"
+#   encoded_input_val="$input_data"/val/encode_"$norm"
+#   encoded_test="$test_data"/encode_"$norm"
+#   train_output=$(./train_norm.sh $encoded_input_tr $encoded_input_val $norm | tee /dev/tty)
+#   model_path=$(echo "$train_output" | tail -n 1)
+#   check_return
+#   ./auroc.sh $model_path $norm $encoded_test
+#   check_return
+# done

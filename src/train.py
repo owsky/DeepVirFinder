@@ -168,6 +168,10 @@ def get_output(input_layer, hidden_layers):
         output = hidden_layer(output)
     return output
 
+print("####################################")
+print(np.shape([X_trfw_shuf, X_trbw_shuf]))
+print("####################################")
+
 
 print("...building model...")
 ## if model exists

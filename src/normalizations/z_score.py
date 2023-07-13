@@ -1,5 +1,4 @@
-from sklearn.discriminant_analysis import StandardScaler
-
+from sklearn.preprocessing import StandardScaler
 
 def encodeSeq(seq) : 
     seq_code = list()
@@ -17,7 +16,6 @@ def encodeSeq(seq) :
             code = [1/4, 1/4, 1/4, 1/4]
         seq_code.append(code)
     return seq_code 
-
 
 def normalize_sequence(sequence: str) -> list:
     scaler = StandardScaler()

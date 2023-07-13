@@ -5,7 +5,7 @@ GREEN='\033[0;32m'
 RED='\033[0;31m'
 NC='\033[0m'
 
-norm="raw_count"
+norm="count"
 input_data="./data/train_example_dataset"
 test_data="./data/test"
 

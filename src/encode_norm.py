@@ -80,8 +80,10 @@ def main():
                 encoded_sequences = np.array(encoded_sequences)
                 encoded_sequencesbw = np.array(encoded_sequencesbw)
                 if len(encoded_sequences.shape) < 3:
-                    encoded_sequences = np.reshape(encoded_sequences, (*encoded_sequences.shape, 1))
-                    encoded_sequencesbw = np.reshape(encoded_sequencesbw, (*encoded_sequencesbw.shape, 1))
+                    # encoded_sequences = np.reshape(encoded_sequences, (*encoded_sequences.shape, 1))
+                    # encoded_sequencesbw = np.reshape(encoded_sequencesbw, (*encoded_sequencesbw.shape, 1))
+                    encoded_sequences = np.reshape(encoded_sequences, (-1, 64, 4))
+                    encoded_sequencesbw = np.reshape(encoded_sequencesbw, (-1, 64, 4))
                     
                 np.save(os.path.join(out_dir, contig_type + f"_{l/1000}k_codefw.npy"), encoded_sequences)
                 np.save(os.path.join(out_dir, contig_type + f"_{l/1000}k_codebw.npy"), encoded_sequencesbw)
@@ -97,8 +99,10 @@ def main():
             encoded_sequences = np.array(encoded_sequences)
             encoded_sequencesbw = np.array(encoded_sequencesbw)
             if len(encoded_sequences.shape) < 3:
-                encoded_sequences = np.reshape(encoded_sequences, (*encoded_sequences.shape, 1))
-                encoded_sequencesbw = np.reshape(encoded_sequencesbw, (*encoded_sequencesbw.shape, 1))
+                # encoded_sequences = np.reshape(encoded_sequences, (*encoded_sequences.shape, 1))
+                # encoded_sequencesbw = np.reshape(encoded_sequencesbw, (*encoded_sequencesbw.shape, 1))
+                encoded_sequences = np.reshape(encoded_sequences, (-1, 64, 4))
+                encoded_sequencesbw = np.reshape(encoded_sequencesbw, (-1, 64, 4))
                 
             np.save(os.path.join(out_dir, contig_type + "_0k_codefw.npy"), encoded_sequences)
             np.save(os.path.join(out_dir, contig_type + "_0k_codebw.npy"), encoded_sequencesbw)
